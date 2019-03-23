@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900');
+
+
+ body {
+font-family: 'Barlow', sans-serif;
+margin: 0;
+padding: 0;
+color: #000;
+max-width: 100em;
+background: #f7f3ef;
+max-width: 2000px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link, a:active, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header {
+  font-size: 5vh;
+  background: #E62A44;
+  letter-spacing: 1.5px;
+  color: #f7f3ef;
+  position: -webkit-sticky;
+ position: sticky;
+
+  padding: 0 10px 5px 10px;
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+#page {
+  background: tomato;
+  border-bottom: 5px solid #E72440;
+  position: absolute;
+right:0;
+  padding: 0 5px 0 5px;
+    top: 60px; /* Stay on top */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  box-sizing: border-box;
+  width: 51%;
+  height: 100%;
+  z-index: 2;
+  display: none;
+}
+
+H1 {
+  font-size: 3.5vh;
+  font-weight: bold;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#footer {
+/* style */
+font-size: 3vh;
+  background: #f7f3ef;
+  letter-spacing: 1.5px;
+  color: #E62A44;
+  padding: 0 10px 50px; 15px;
+/* format */
+    width: 100%;
+    min-height: 22vh;
+    clear: both; /* flexbox? */
+    z-index: 3;
+}
+
+.footie {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    min-height: 30vh;
+    max-height: 45vh;
+}
+
+.grid {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: nowrap; /* wrap or no wrap */
+
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 0em;
+}
+
+.module {
+  /* Demo-Specific Styles */
+  /* background: #eaeaea; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+  z-index: 1;
+
+
+}
+
+#box1, #box2, #box3 {
+  box-sizing: border-box;
+  /* border: 6px solid #132EC1; */
+    font-size: 0.7em;
+    text-align: center;
+    color: #E72440;
+    font-size: 3em;
+     /* z-index: 1;
+    background: white; */
+}
+
+#box1:hover { border: 6px solid #132EC1; color:#E72440;}
+
+#box2:hover {  border: 6px solid #E72440; color:#132EC1;}
+
+.text {
+  font-size: 24px;
+}
+
+.content {
+  font-size: 5vw;
+  padding: 20px;
+}
+
+#text {
+  font-size: 5em;
+}
+
+
+
+/* If Grid is supported, remove the margin we set for the fallback */
+@supports (display: grid) {
+  .module{
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+                  /* Responsive */
+
+/* phone */
+  @media (max-width: 800px) {
+    .footie {
+        width: 100%;
+        padding: 10px;
+        max-height: 100%;
+}
+.grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-auto-rows: minmax(150px, auto);
+      grid-gap: 0em;
+    }
+  #nope {display:none;}
+}
+
+/* ipad portrait */
+  @media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  #nope {display:block;}
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 0em;
+  }
+
+}
+
+/* ipad pro portrait */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 0em;
+  }
+
+  #footer {
+  font-size: 2vh;}
+}
+
+
+/* Desktops & higher resolutions laptops (min=1281) */
+@media (min-width: 1900px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 0em;
+  }
+
+}

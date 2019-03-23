@@ -1,0 +1,63 @@
+body {
+font-family: 'Barlow', sans-serif;
+background-color: #f7f3ef;
+font-size: 4vmin;
+color: #302D7D;
+}
+
+.container, .container-fluid {
+  /* background-color: tomato; */
+}
+.row, .col, .col-sm-8, .col-sm-4 {
+  /* border: 0.5px solid red; */
+  /* border-bottom: 1px solid;  THIS FUCKS IT UP*/
+}
+.col-sm {
+  border: 1px solid;
+}
+
+
+.row#first {
+  background-color: #f7f3ef;
+  padding-left: 10vw;
+}
+.row#info {
+  background:  #FAD2C8;
+}
+
+#works {
+  background-color: #F7A813;
+  border-radius: 0px 0px 100px;
+  border: none;
+}
+
+#bigtext {
+  background-color: #302D7D;
+  font-size: 26vmin;
+  color: #FAD2C8;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#extradates {
+  background-color: #E62A44;
+}
+
+#header {
+  font-size: 5vmin;
+  background: #E62A44;
+  letter-spacing: 1.5px;
+  color: #FAD2C8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; /* Stay on top */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.row#first i {
+  color: #E62A44;
+}
