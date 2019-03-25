@@ -10,10 +10,11 @@ color: #302D7D;
   margin: 0;
   padding: 0;
 
+
 }
 .no-gutters {
   margin-right: 0;
-  margin-left: 0;
+  margin-left: 0px;
 
   > .col,
   > [class*="col-"] {
@@ -29,6 +30,7 @@ color: #302D7D;
 }
 .col-sm {
   /* border: 1px solid; */
+  padding: 0px;  /* this fixes the front grid right padding issue but maybe be a problem with text */
 }
 
 
