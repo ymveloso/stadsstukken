@@ -7,13 +7,28 @@ color: #302D7D;
 
 .container, .container-fluid {
   /* background-color: tomato; */
+  margin: 0;
+  padding: 0;
+
 }
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
 .row, .col, .col-sm-8, .col-sm-4 {
   /* border: 0.5px solid red; */
   /* border-bottom: 1px solid;  THIS FUCKS IT UP*/
 }
 .col-sm {
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 
