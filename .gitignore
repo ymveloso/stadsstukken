@@ -1,2 +1,2 @@
 .DS_Store
-printf '*.jpg\n*.jpeg\n*.png\n*.gif\n'
+printf '*.jpg\n*.jpeg\n*.png\n*.gif\n' >> .gitignore
