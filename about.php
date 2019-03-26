@@ -83,17 +83,18 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
       <div class="col">
 
         <img src="next.svg" class="next">
+        <div class="circle"></div>
 
         <h2>Artist name</h2>
+
 <p class="bio">
 Artist text
 </p>
 
 
-         <br>
-
-        <b>Interview</b>
-        <br> <br>
+<p class="interview">
+Artist interview
+</p>
 
 
       </div>

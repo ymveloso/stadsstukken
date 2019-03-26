@@ -5,6 +5,18 @@ font-size: 4vmin;
 color: #302D7D;
 }
 
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: #3e78ed;
+  border-radius: 50%;
+  display: inline-block;
+
+  transition: background-color 0.5s;
+
+}
+
+
 .container, .container-fluid {
   /* background-color: tomato; */
   /* margin: 0;
@@ -37,6 +49,8 @@ color: #302D7D;
 }
 .row#info {
   background:  #FAD2C8;
+  transition: background-color 0.5s;
+
 }
 
 #works {

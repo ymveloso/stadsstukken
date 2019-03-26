@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <title>2. Stads</title>
+    <meta charset="utf-8">
+    <meta name="generator" content="SuperHi">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- JQuery & popper.js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- Barlow -->
+<link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="style.css">
+<!-- Lottie -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.4/lottie.js'></script>
+
+
+
+</head>
+
+  <body>
+
+
+        <section>
+        	<div class="circle"></div>
+
+          <h1>
+            Rose Culver is...
+          </h1>
+
+          <h2>
+            a Brooklyn-based graphic designer.
+          </h2>
+        </section>
+
+
+        <footer>
+        	<img src="prev.svg" class="prev">
+          <img src="random.svg" class="random">
+          <img src="next.svg" class="next">
+        </footer>
+
+
+
+<script>
+let pageNumber = 0 //"var" initial page is 0
+
+
+//hold the content of the "pages" array
+const pages = [ //an array
+  {copy:"a Brooklyn-based graphic designer", background:"#edc7a9", circle:"#3e78ed"}, //an object
+  {copy: "Kanye West's biggest fan", background: " #a1fffe", circle:"#e34a47"},
+  {copy: "looking for a job at the start of October", background:"#d3c7f3", circle:"#f7fe00"},
+  {copy:`letting you <a href="pdf.pdf">download her PDF</a>`, background:"#faffb8", circle:"#b472e6"}
+]
+
+const nextTag = document.querySelector("footer img.next") //finds next.svg
+const previousTag = document.querySelector("footer img.prev") //finds prev.svg
+const randomTag = document.querySelector("footer img.random") //finds random.svg
+const outputTag = document.querySelector("h2") // Change the outputTag
+const circleTag = document.querySelector("section div.circle")
+const bodyTag = document.querySelector("body")
+
+//next events
+const next = function(){
+  pageNumber = pageNumber + 1
+    if (pageNumber > pages.length - 1){pageNumber = 0} //checks if page number is the final one
+    updateSection()
+}
+
+//previous events
+const previous = function(){
+  pageNumber = pageNumber - 1
+    if (pageNumber < 0){pageNumber = pages.length - 1}
+    updateSection()
+}
+
+//pick a random slide
+const random = function(){
+  pageNumber = Math.floor(Math.random() * pages.length)
+  updateSection()
+}
+
+// updates section's inner html
+const updateSection = function(){
+  outputTag.innerHTML = pages[pageNumber].copy
+  circleTag.style.backgroundColor = pages[pageNumber].circle
+  bodyTag.style.backgroundColor = pages[pageNumber].background
+}
+
+//addEventListener runs on load, listening for a "click"
+//when we run a click, we want to run something
+nextTag.addEventListener("click", function(){
+  next()
+})
+
+previousTag.addEventListener("click", function(){
+  previous()
+})
+
+//on click of random tag, do this
+randomTag.addEventListener("click", function(){
+  random() //runs const random
+})
+
+//when a user presses a key check for arrow left or right
+//and do next or prev correctly
+document.addEventListener("keyup", function(event){ //event = check what happens when i press a key
+  console.log(event)
+
+  //if the key being pressed is ArrowRight or ArrowLeft
+  if(event.key == "ArrowRight"){
+    next()
+  }
+
+    if(event.key == "ArrowLeft"){
+      previous()
+    }
+  })
+
+</script>
+
+      <script>
+      /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").style.top = "0";
+        } else {
+          document.getElementById("header").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
+      <!-- scrolling effects -->
+      <script src="scripts/javascript.js"></script>
+      <!-- page slider -->
+      <script src="scripts/js.js"></script>
+      <!-- bodymovin -->
+      <script src="scripts/anims.js"></script>
+
+      </body>
+    </html>
