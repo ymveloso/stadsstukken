@@ -1,36 +1,27 @@
 <?php include 'header.php';?>
 
-<div class="container-fluid">
-  <div class=row id="header">
-    <div class="col">
-      <i>Stadsstukken</i> <b> Rotterdam </b>
-    </div>
-  </div>
 
   <div class=row id="first">
-    <div class="col">col
+    <div class="col">
       <br>
-      Kunst in de publieke ruimte. <br> <br>
+      <p>Kunst in de publieke ruimte. </p>
 
-De stad is niet in één <i>beeld</i> te vatten. <br>
-Ze groeit, verdicht en is continue in beweging. <br> <br>
+<p>De stad is niet in één <i>beeld</i> te vatten. </p>
+Ze groeit, verdicht en is continue in beweging. </p>
 
-Laten we Rotterdam opnieuw leren <br>
+<p>Laten we Rotterdam opnieuw leren <br>
 kennen, vanuit een ander perspectief. <br>
-Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
+Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. </p>
 
     </div>
   </div>
 
 
 
-  <div class="row">
+  <div class="row" id="slidemenu">
+      <div class="col-sm-8" id="carousel">
 
-
-
-      <div class="col-sm-8" id="imagecol">
         <!-- Image Slideshow -->
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -45,7 +36,7 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
               <img class="d-block w-100" src="img2.svg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide">
+              <img class="d-block w-100" src="img3.svg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -64,14 +55,15 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
 
 
       <div class="col-sm-4" id="works" >
-        <h1>Stukken </h1>
-Kunstwerken info
+        <h2>Stukken </h2>
+<p>Kunstwerken info</p> <br>
+
 
 <ul>
-  <li>Off-Side</li>
-  <li>Playdoh</li>
-  <li>Attentie waarde</li>
-  <li>De maan</li>
+  <li class="item1">Off-Side</li>
+  <li class="item2">Playdoh</li>
+  <li class="item3">Attentie waarde</li>
+  <li class="item4">De maan</li>
 </ul>
 
 
@@ -85,18 +77,19 @@ Kunstwerken info
 
         <img src="next.svg" class="next">
 
-        <h2>Artist name</h2>
+
+        <h2 class="name">Artist name</h2>
 
 <p class="bio">
 Artist text
 </p>
 
+<div class="circle"></div>
 
 <p class="interview">
 Artist interview
 </p>
 
-<div class="circle"></div>
 
       </div>
     </div>
@@ -157,6 +150,5 @@ Artist interview
   </div>
 </div>
 
-</div>
 
 <?php include 'footer.php';?>

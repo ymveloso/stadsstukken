@@ -9,6 +9,7 @@ const pages = [
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
   menucolour: "#302D7D",
+  liweight: "bold",
 },
 
   {name:"Artist 2",
@@ -17,7 +18,9 @@ const pages = [
   interview:"Interview 2",
   bgcolour: "#E62A44",
   colour:"#302D7D",
-  menucolour:"#E62A44"
+  menucolour:"#E62A44",
+  liweight: "bold",
+
 },
 
   {name:"Artist 3",
@@ -26,7 +29,9 @@ const pages = [
   interview:"Interviewt 3",
   bgcolour: "#FAD2C8",
   colour: "#302D7D",
-  menucolour:"#FAD2C8"
+  menucolour:"#FAD2C8",
+  liweight: "bold",
+
 },
 
   {name:"Artist 4",
@@ -35,19 +40,26 @@ const pages = [
   interview:"Interview 4",
   bgcolour: "#F7A813",
   colour: "#302D7D",
-  menucolour:"#F7A813"
+  menucolour:"#F7A813",
+  liweight: "bold",
+
 }
 ]
 
 //define all tags
 const nextTag = document.querySelector("img.next") //finds next.svg
-const titleTag = document.querySelector("h2") // finds h2
+const titleTag = document.querySelector("h2.name") // finds h2
 const circleTag = document.querySelector("div.circle") //finds div.circle
 const textTag = document.querySelector("p.bio") //finds div.circle
 const interTag = document.querySelector("p.interview") //finds div.circle
 const bgTag = document.querySelector("#info") //finds div.circle
 const fontTag = document.querySelector("#info") //finds div.circle
 const menuTag = document.querySelector("#works") //finds div.circle
+const slideTag = document.querySelector("#carousel") //finds div.circle
+const li1Tag = document.querySelector("li.item1") //finds div.circle
+const li2Tag = document.querySelector("li.item2") //finds div.circle
+const li3Tag = document.querySelector("li.item3") //finds div.circle
+const li4Tag = document.querySelector("li.item4") //finds div.circle
 
 
 //next events
@@ -63,10 +75,21 @@ const updateSection = function(){
   titleTag.innerHTML = pages[pageNumber].name
   textTag.innerHTML = pages[pageNumber].text
   interTag.innerHTML = pages[pageNumber].interview
-  circleTag.style.backgroundColor = pages[pageNumber].circle
+
+
   bgTag.style.backgroundColor = pages[pageNumber].bgcolour
+  menuTag.style.backgroundColor = pages[pageNumber].bgcolour
+  slideTag.style.backgroundColor = pages[pageNumber].bgcolour
+
   fontTag.style.color = pages[pageNumber].colour
-  menuTag.style.backgroundColor = pages[pageNumber].menucolour
+  menuTag.style.color = pages[pageNumber].colour
+
+  // li1Tag.style.fontWeight = pages[pageNumber].liweight
+  // li2Tag.style.fontWeight = pages[pageNumber].liweight
+  // li3Tag.style.fontWeight = pages[pageNumber].liweight
+  // li4Tag.style.fontWeight = pages[pageNumber].liweight
+
+  circleTag.style.backgroundColor = pages[pageNumber].circle
 
 
 }

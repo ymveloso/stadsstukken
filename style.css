@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -14,13 +14,12 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
 ol, ul {
   list-style: none;
+  padding: 0;
 }
 blockquote, q {
   quotes: none;
@@ -61,42 +60,31 @@ color: #302D7D;
 }
 
 .circle {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background-color: #3e78ed;
   border-radius: 50%;
   display: inline-block;
-
   transition: background-color 0.5s;
-
 }
-
 
 .container, .container-fluid {
   /* background-color: tomato; */
-  /* margin: 0;
-  padding: 0; */
 }
-
-
-/* #1, #2, #3, #4, #5, #6, #7, #8, #9, #10, #11, #12 {
-  padding: 0px;
-  border: 1px solid;
-} */
-
-
 
 .row, .col, .col-sm-8, .col-sm-4 {
   /* border: 0.5px solid red; */
-  /* border-bottom: 1px solid;  THIS FUCKS IT UP*/
+  /* border-bottom: 1px solid;  testing only */
 }
 
+.col-sm-8 {
+  padding:0; /* this keeps the slideshow at 100% width*/
+}
 .col-sm#grid {
   /* border: 1px solid; */
+  /* this will make the front grid gutter-free  */
   padding: 0px;
 }
-
-
 
 .row#first {
   background-color: #f7f3ef;
@@ -104,17 +92,26 @@ color: #302D7D;
 }
 .row#info {
   background:  #FAD2C8;
+  /* border-radius: 0px 0px 100px 0px; */
   transition: background-color 0.5s;
+}
 
+li.item1{font-weight: normal;}
+
+
+h2, h1 {
+  font-weight: bold;
+}
+
+#carousel, #works {
+  background-color: #F7A813;
+  transition: background-color 0.5s;
 }
 
 #works {
-  background-color: #F7A813;
   border-radius: 0px 0px 100px;
-  border: none;
-  transition: background-color 0.5s;
-
 }
+
 
 #bigtext {
   background-color: #302D7D;
