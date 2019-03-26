@@ -68,7 +68,8 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
 
           Kunstwerken info
 <br> <br>
-              Off-side <br>
+
+              Off-Side <br>
               Playdoh <br>
               Attentie waarde <br>
               De maan <br>
@@ -81,13 +82,15 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
     <div class=row id="info">
       <div class="col">
 
-        <b>Door: Pip Passchier</b><br>
-Hier een kort stukje over de kunstenaar. Met een linkje naar hun
-website en/of instagram een shop. Dat dus. Hier een kort stukje over
-de verschillende kunstenaars. Met een linkje naar hun website en/of
+        <img src="next.svg" class="next">
+
+        <h2>Artist name</h2>
+<p class="bio">
+Artist text
+</p>
 
 
-         <br> <br>
+         <br>
 
         <b>Interview</b>
         <br> <br>
@@ -100,18 +103,15 @@ de verschillende kunstenaars. Met een linkje naar hun website en/of
     <!-- Nested collumns -->
     <div class="row">
 
-<div class="col-sm">
-<div class="row">
-      <div class="col">
-        1 of 3
+<div class="col-sm" id="grid">
+<div class="row no-gutters">
+      <div class="col" id="1">
       </div>
 
-      <div class="col">
-        2 of 3
+      <div class="col" id="2">
       </div>
 
-      <div class="col">
-        3 of 3
+      <div class="col" id="3">
       </div>
 
   </div>
@@ -120,18 +120,15 @@ de verschillende kunstenaars. Met een linkje naar hun website en/of
 
 
 
-<div class="col-sm">
-<div class="row">
-      <div class="col">
-        1 of 3
+<div class="col-sm" id="grid">
+<div class="row no-gutters">
+      <div class="col" id="4">
       </div>
 
-      <div class="col">
-        2 of 3
+      <div class="col" id="5">
       </div>
 
-      <div class="col">
-        3 of 3
+      <div class="col" id="6">
       </div>
 
   </div>
@@ -140,49 +137,7 @@ de verschillende kunstenaars. Met een linkje naar hun website en/of
 
 
 
-<div class="row">
-  <div class="col">
-    1 of 2
-  </div>
-  <div class="col">
-    2 of 2
-  </div>
-</div>
 
-
-
-<div class="row">
-  <div class="col">
-    1 of 3
-  </div>
-  <div class="col">
-    2 of 3
-  </div>
-  <div class="col">
-    3 of 3
-  </div>
-</div>
-
-<div class="row">
-  <div class="col">
-    1 of 4
-  </div>
-  <div class="col">
-    2 of 4
-  </div>
-  <div class="col">
-    3 of 4
-  </div>
-  <div class="col">
-    4 of 4
-  </div>
-  <div class="col">
-    4 of 4
-  </div>
-  <div class="col">
-    4 of 4
-  </div>
-</div>
 
 
 

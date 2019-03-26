@@ -12,7 +12,7 @@
         <!-- Nested collumns -->
         <div class="row">
 
-  <div class="col-sm">
+  <div class="col-sm" id="grid">
     <div class="row no-gutters">
           <div class="col" id="1">
             <!-- 1 of 3 -->
@@ -32,7 +32,7 @@
 
 
 
-<div class="col-sm">
+<div class="col-sm" id="grid">
     <div class="row no-gutters">
           <div class="col" id="4">
             <!-- 1 of 3 -->
@@ -55,7 +55,7 @@
 
 <div class="row">
 
-<div class="col-sm">
+<div class="col-sm" id="grid">
   <div class="row no-gutters">
     <div class="col" id="7">
     <!-- 1 of 3 -->
@@ -73,7 +73,7 @@
 
 </div>
 
-  <div class="col-sm">
+  <div class="col-sm" id="grid">
     <div class="row no-gutters">
       <div class="col" id="10">
       <!-- 1 of 3 -->
@@ -93,7 +93,7 @@
 
 <div class="row">
 
-<div class="col-sm">
+<div class="col-sm" id="grid">
   <div class="row no-gutters">
     <div class="col" id="13">
     <!-- 1 of 3 -->
@@ -112,7 +112,7 @@
 </div>
 
   <div class="col-sm">
-    <div class="row no-gutters">
+    <div class="row no-gutters" id="grid">
       <div class="col" id="16">
       <!-- 1 of 3 -->
       </div>

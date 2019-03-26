@@ -7,31 +7,28 @@ color: #302D7D;
 
 .container, .container-fluid {
   /* background-color: tomato; */
-  margin: 0;
-  padding: 0;
-
-
+  /* margin: 0;
+  padding: 0; */
 }
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0px;
 
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
+
+/* #1, #2, #3, #4, #5, #6, #7, #8, #9, #10, #11, #12 {
+  padding: 0px;
+  border: 1px solid;
+} */
+
 
 
 .row, .col, .col-sm-8, .col-sm-4 {
   /* border: 0.5px solid red; */
   /* border-bottom: 1px solid;  THIS FUCKS IT UP*/
 }
-.col-sm {
+
+.col-sm#grid {
   /* border: 1px solid; */
-  padding: 0px;  /* this fixes the front grid right padding issue but maybe be a problem with text */
+  padding: 0px;
 }
+
 
 
 .row#first {

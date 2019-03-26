@@ -12,8 +12,11 @@
     prevScrollpos = currentScrollPos;
   }
   </script>
-  <!-- animations js which one -->
+  <!-- scrolling effects -->
   <script src="scripts/javascript.js"></script>
+  <!-- page slider -->
+  <script src="scripts/js.js"></script>
+  <!-- bodymovin -->
   <script src="scripts/anims.js"></script>
 
   </body>
