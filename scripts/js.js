@@ -84,6 +84,7 @@ const updateSection = function(){
   fontTag.style.color = pages[pageNumber].colour
   menuTag.style.color = pages[pageNumber].colour
 
+  // These need to be toggled
   // li1Tag.style.fontWeight = pages[pageNumber].liweight
   // li2Tag.style.fontWeight = pages[pageNumber].liweight
   // li3Tag.style.fontWeight = pages[pageNumber].liweight
