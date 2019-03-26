@@ -1,13 +1,5 @@
 <?php include 'header.php';?>
 
-
-      <div class=row id="header">
-        <div class="col">
-          <i>Stadsstukken</i> <b> Rotterdam </b>
-        </div>
-      </div>
-
-
         <!-- Nested collumns -->
         <div class="row">
 
