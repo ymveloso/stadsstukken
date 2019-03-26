@@ -9,7 +9,7 @@ const pages = [
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
   menucolour: "#302D7D",
-  liweight: "bold",
+  liweight: "<b>Off-side</b>"
 },
 
   {name:"Artist 2",
@@ -17,9 +17,9 @@ const pages = [
   circle:"#e34a47",
   interview:"Interview 2",
   bgcolour: "#E62A44",
-  colour:"#302D7D",
+  colour:"#FAD2C8",
   menucolour:"#E62A44",
-  liweight: "bold",
+  liweight: "<b>Playdoh</b>"
 
 },
 
@@ -30,7 +30,7 @@ const pages = [
   bgcolour: "#FAD2C8",
   colour: "#302D7D",
   menucolour:"#FAD2C8",
-  liweight: "bold",
+  liweight: "<b>Attentie Warde</b>"
 
 },
 
@@ -39,9 +39,9 @@ const pages = [
   circle:"#b472e6",
   interview:"Interview 4",
   bgcolour: "#F7A813",
-  colour: "#302D7D",
+  colour: "#E62A44",
   menucolour:"#F7A813",
-  liweight: "bold",
+  liweight: "<b>De maan</b>"
 
 }
 ]
@@ -62,15 +62,14 @@ const li3Tag = document.querySelector("li.item3") //finds div.circle
 const li4Tag = document.querySelector("li.item4") //finds div.circle
 
 
-//next events
+//clarify that "next" is moving +1 down in the array and >then run updateSection
 const next = function(){
   pageNumber = pageNumber + 1
     if (pageNumber > pages.length - 1){pageNumber = 0} //checks if page number is the final one
     updateSection()
 }
 
-
-// updates section's inner html
+// What does it mean to update the section and what elements are involved
 const updateSection = function(){
   titleTag.innerHTML = pages[pageNumber].name
   textTag.innerHTML = pages[pageNumber].text
@@ -84,15 +83,14 @@ const updateSection = function(){
   fontTag.style.color = pages[pageNumber].colour
   menuTag.style.color = pages[pageNumber].colour
 
-  // These need to be toggled
-  // li1Tag.style.fontWeight = pages[pageNumber].liweight
-  // li2Tag.style.fontWeight = pages[pageNumber].liweight
-  // li3Tag.style.fontWeight = pages[pageNumber].liweight
-  // li4Tag.style.fontWeight = pages[pageNumber].liweight
+  li1Tag.innerHTML = pages[pageNumber].liweight
+  li2Tag.innerHTML = pages[pageNumber].liweight
+  li3Tag.innerHTML = pages[pageNumber].liweight
+  li4Tag.innerHTML = pages[pageNumber].liweight
+
+
 
   circleTag.style.backgroundColor = pages[pageNumber].circle
-
-
 }
 
 //addEventListener runs on load, listening for a "click"
@@ -100,3 +98,7 @@ const updateSection = function(){
 nextTag.addEventListener("click", function(){
   next()
 })
+
+//it needs to be specified that once "next" is clicked again, the content of <li> is reseted
+// li.item# only changes when it is the correct page
+// so if page = 1 then li1tag = updated to 1
