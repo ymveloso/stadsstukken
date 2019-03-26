@@ -68,6 +68,14 @@ color: #302D7D;
   transition: background-color 0.5s;
 }
 
+.carousel {
+border: 10px solid red;
+vertical-align: middle;
+}
+.carousel img {
+  min-height: 100%;
+}
+
 .container, .container-fluid {
   /* background-color: tomato; */
 }

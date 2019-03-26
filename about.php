@@ -1,8 +1,9 @@
 <?php include 'header.php';?>
 
+
   <div class=row id="first">
     <div class="col">
-      <br>
+      <p></p>
       <p>Kunst in de publieke ruimte. </p>
 
 <p>De stad is niet in één <i>beeld</i> te vatten. </p>
