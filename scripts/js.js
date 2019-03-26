@@ -1,4 +1,4 @@
-let pageNumber = 0 //"var" initial page is 0
+let pageNumber = 0; //"var" initial page is 0
 
 //hold the content of the "pages" array
 const pages = [
@@ -7,14 +7,17 @@ const pages = [
   circle:"#3e78ed",
   interview:"Interview 1",
   bgcolour:"#302D7D",
-  colour: "#FAD2C8" },
+  colour: "#FAD2C8",
+  menucolour: "#302D7D",
+},
 
   {name:"Artist 2",
   text:"Text Artist 2",
   circle:"#e34a47",
   interview:"Interview 2",
   bgcolour: "#E62A44",
-  colour:"#302D7D"
+  colour:"#302D7D",
+  menucolour:"#E62A44"
 },
 
   {name:"Artist 3",
@@ -22,13 +25,18 @@ const pages = [
   circle:"#f7fe00",
   interview:"Interviewt 3",
   bgcolour: "#FAD2C8",
-  color: "#302D7D"},
+  colour: "#302D7D",
+  menucolour:"#FAD2C8"
+},
 
   {name:"Artist 4",
   text:"Text Artist 4",
   circle:"#b472e6",
   interview:"Interview 4",
-  bgcolour: "#F7A813"}
+  bgcolour: "#F7A813",
+  colour: "#302D7D",
+  menucolour:"#F7A813"
+}
 ]
 
 //define all tags
@@ -39,6 +47,8 @@ const textTag = document.querySelector("p.bio") //finds div.circle
 const interTag = document.querySelector("p.interview") //finds div.circle
 const bgTag = document.querySelector("#info") //finds div.circle
 const fontTag = document.querySelector("#info") //finds div.circle
+const menuTag = document.querySelector("#works") //finds div.circle
+
 
 //next events
 const next = function(){
@@ -56,6 +66,7 @@ const updateSection = function(){
   circleTag.style.backgroundColor = pages[pageNumber].circle
   bgTag.style.backgroundColor = pages[pageNumber].bgcolour
   fontTag.style.color = pages[pageNumber].colour
+  menuTag.style.backgroundColor = pages[pageNumber].menucolour
 
 
 }

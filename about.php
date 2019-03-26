@@ -64,15 +64,16 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
 
 
       <div class="col-sm-4" id="works" >
-        <b>Stukken </b> <br>
+        <h1>Stukken </h1>
+Kunstwerken info
 
-          Kunstwerken info
-<br> <br>
+<ul>
+  <li>Off-Side</li>
+  <li>Playdoh</li>
+  <li>Attentie waarde</li>
+  <li>De maan</li>
+</ul>
 
-              Off-Side <br>
-              Playdoh <br>
-              Attentie waarde <br>
-              De maan <br>
 
 
       </div>
@@ -83,7 +84,6 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. <br>
       <div class="col">
 
         <img src="next.svg" class="next">
-        <div class="circle"></div>
 
         <h2>Artist name</h2>
 
@@ -96,6 +96,7 @@ Artist text
 Artist interview
 </p>
 
+<div class="circle"></div>
 
       </div>
     </div>
