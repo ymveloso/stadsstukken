@@ -8,7 +8,7 @@ const pages = [
   interview:"Interview 1",
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
-  menucolour: "#302D7D",
+  menucolour: "#E62A44",
   liweight: "<b>Off-side</b>"
 },
 
@@ -18,7 +18,8 @@ const pages = [
   interview:"Interview 2",
   bgcolour: "#E62A44",
   colour:"#FAD2C8",
-  menucolour:"#E62A44",
+  menucolour:"#FAD2C8",
+  workscolour: "#302D7D",
   liweight: "<b>Playdoh</b>"
 
 },
@@ -29,7 +30,8 @@ const pages = [
   interview:"Interviewt 3",
   bgcolour: "#FAD2C8",
   colour: "#302D7D",
-  menucolour:"#FAD2C8",
+  menucolour:"#302D7D",
+  workscolour: "#F7A813",
   liweight: "<b>Attentie Warde</b>"
 
 },
@@ -40,7 +42,8 @@ const pages = [
   interview:"Interview 4",
   bgcolour: "#F7A813",
   colour: "#E62A44",
-  menucolour:"#F7A813",
+  menucolour:"#E62A44",
+  workscolour: "#FAD2C8",
   liweight: "<b>De maan</b>"
 
 }
@@ -77,17 +80,16 @@ const updateSection = function(){
 
 
   bgTag.style.backgroundColor = pages[pageNumber].bgcolour
-  menuTag.style.backgroundColor = pages[pageNumber].bgcolour
-  slideTag.style.backgroundColor = pages[pageNumber].bgcolour
+  menuTag.style.backgroundColor = pages[pageNumber].menucolour
+  slideTag.style.backgroundColor = pages[pageNumber].menucolour
 
   fontTag.style.color = pages[pageNumber].colour
-  menuTag.style.color = pages[pageNumber].colour
+  menuTag.style.color = pages[pageNumber].workscolour
 
   li1Tag.innerHTML = pages[pageNumber].liweight
   li2Tag.innerHTML = pages[pageNumber].liweight
   li3Tag.innerHTML = pages[pageNumber].liweight
   li4Tag.innerHTML = pages[pageNumber].liweight
-
 
 
   circleTag.style.backgroundColor = pages[pageNumber].circle
@@ -99,6 +101,7 @@ nextTag.addEventListener("click", function(){
   next()
 })
 
+//addEventListener vs onclick + console error
 //it needs to be specified that once "next" is clicked again, the content of <li> is reseted
 // li.item# only changes when it is the correct page
 // so if page = 1 then li1tag = updated to 1

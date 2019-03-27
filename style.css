@@ -68,8 +68,10 @@ color: #302D7D;
   transition: background-color 0.5s;
 }
 
+img.next {  cursor: pointer;}
+
 .carousel {
-border: 10px solid red;
+/* border: 10px solid red; */
 vertical-align: middle;
 }
 .carousel img {
@@ -146,6 +148,7 @@ h2, h1 {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   box-sizing: border-box;
   z-index: 1;
+  cursor: s-resize;
 }
 
 .row#first i {
