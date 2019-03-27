@@ -1,27 +1,17 @@
 <?php include 'header.php';?>
 
         <!-- Nested collumns -->
-        <div class="row">
+<div class="row">
 
-  <div class="col-sm" id="grid">
-    <div class="row no-gutters">
-          <div class="col" id="1">
-            <!-- 1 of 3 -->
-          </div>
+  <div class="col-sm">
+    <div class="row" id="first">
+      <p>Stukken stad bedoelt voor iedereen. </p>
+<p>Tijdelijk, iets anders, toegankelijker, leuker</p>
 
-          <div class="col" id="2">
-            <!-- 2 of 3 -->
-          </div>
+<i>info@stadsstukken.com</i>
+      </div>
 
-          <div class="col" id="3">
-            <!-- 3 of 3 -->
-          </div>
-
-        </div>
   </div>
-
-
-
 
 <div class="col-sm" id="grid">
     <div class="row no-gutters">
@@ -86,15 +76,15 @@
 
 <div class="col-sm" id="grid">
   <div class="row no-gutters">
-    <div class="col" id="13">
+    <div class="col" id="1">
     <!-- 1 of 3 -->
     </div>
 
-    <div class="col" id="14">
+    <div class="col" id="2">
     <!-- 2 of 3 -->
     </div>
 
-    <div class="col" id="15">
+    <div class="col" id="3">
     <!-- 3 of 3 -->
     </div>
 

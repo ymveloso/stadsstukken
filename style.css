@@ -57,84 +57,7 @@ font-family: 'Barlow', sans-serif;
 background-color: #f7f3ef;
 font-size: 4vmin;
 color: #302D7D;
-}
-
-.circle {
-  width: 30px;
-  height: 30px;
-  background-color: #3e78ed;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s;
-}
-
-img.next {  cursor: pointer;}
-
-.carousel {
-/* border: 10px solid red; */
-vertical-align: middle;
-}
-.carousel img {
-  min-height: 100%;
-}
-
-.container, .container-fluid {
-  /* background-color: tomato; */
-}
-
-.row, .col, .col-sm-8, .col-sm-4 {
-  /* border: 0.5px solid red; */
-  /* border-bottom: 1px solid;  testing only */
-}
-
-.col-sm-8 {
-  padding:0; /* this keeps the slideshow at 100% width*/
-}
-.col-sm#grid {
-  /* border: 1px solid; */
-  /* this will make the front grid gutter-free  */
-  padding: 0px;
-}
-
-.row#first {
-  background-color: #f7f3ef;
-  padding-left: 10vw;
-}
-.row#info {
-  background:  #FAD2C8;
-  /* border-radius: 0px 0px 100px 0px; */
-  transition: background-color 0.5s;
-}
-
-li.item1{font-weight: normal;}
-
-
-h2, h1 {
-  font-weight: bold;
-}
-
-#carousel, #works {
-  background-color: #F7A813;
-  transition: background-color 0.5s;
-}
-
-#works {
-  border-radius: 0px 0px 100px;
-}
-
-
-#bigtext {
-  background-color: #302D7D;
-  font-size: 26vmin;
-  color: #FAD2C8;
-  line-height: 0.9;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-#extradates {
-  background-color: #E62A44;
+cursor: url('img/cursor1.png');
 }
 
 #header {
@@ -151,6 +74,82 @@ h2, h1 {
   cursor: s-resize;
 }
 
+/* Animation Grid */
+.col-sm#grid {
+  /* border: 1px solid; */
+  /* this will make the front grid gutter-free  */
+  padding: 0px;
+}
+/* Intro div (text) */
+.row#first {
+  background-color: #f7f3ef;
+  padding: 3.5vw;
+}
 .row#first i {
   color: #E62A44;
 }
+
+/* Slideshow collumn */
+.col-sm-8 {
+  padding:0; /* this keeps the slideshow at 100% width*/
+}
+
+.carousel {
+/* border: 10px solid red; */
+vertical-align: middle;
+}
+.carousel img {
+  min-height: 100%;
+}
+#carousel, #works {
+  background-color: #F7A813;
+  transition: background-color 0.5s;
+}
+#works {
+  border-radius: 0px 0px 100px;
+}
+
+/* Artist profiles */
+.row#info {
+  background:  #FAD2C8;
+  /* border-radius: 0px 0px 100px 0px; */
+  transition: background-color 0.5s;
+}
+.row#stslide {
+  background:  #FAD2C8;
+}
+
+.row#contact {background: #F7A813;}
+
+li.item1{font-weight: normal;}
+
+h2, h1 {
+  font-weight: bold;
+}
+
+
+
+#bigtext {
+  background-color: #302D7D;
+  font-size: 26vmin;
+  color: #FAD2C8;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#extradates {
+  background-color: #E62A44;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #3e78ed;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s;
+}
+
+img.next {  cursor: pointer;}
