@@ -22,22 +22,28 @@ die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van 
 
   <!-- Image Slideshow -->
   <div id="carouselExampleIndicators-1" class="carousel slide" data-ride="carousel">
+
+<!-- Why is this still here -->
+    <!-- indicators
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
+    </ol>-->
+
+    <!--flex slide section -->
+    <div class="carousel-inner" id="innerslide" style="max-height: 70vh !important;">
       <div class="carousel-item active">
-        <img id="img1" class="d-block w-100" src="img/jasper-portret1.jpg" alt="First slide">
+        <img class="d-block w-100" src="img/img1.svg">
       </div>
       <div class="carousel-item">
-        <img  id="img2" class="d-block w-100" src="img/jasper-portret2.jpg" alt="Second slide">
+        <img class="d-block w-100" src="img/img2.svg">
       </div>
       <div class="carousel-item">
-        <img id="img3" class="d-block w-100" src="img/jasper-portret3.jpg" alt="Third slide">
+        <img class="d-block w-100" src="img/img3.svg">
       </div>
     </div>
+    <!--flex slide section -->
     <a class="carousel-control-prev" href="#carouselExampleIndicators-1" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -64,7 +70,7 @@ die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van 
   <li class="item4">De maan</li>
 </ul>
 
-<img src="next.svg" class="next">
+<div class="circle2"></div>
 
 
 
@@ -147,13 +153,13 @@ Artist interview
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img1.svg" alt="First slide">
+      <img class="d-block w-100" src="img/img1.svg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img2.svg" alt="Second slide">
+      <img class="d-block w-100" src="img/img2.svg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img3.svg" alt="Third slide">
+      <img class="d-block w-100" src="img/img3.svg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators-2" role="button" data-slide="prev">
@@ -205,7 +211,7 @@ Artist interview
 
 
 
-<div class=row id="bigtext">
+<div class=row id="dateannouncement">
   <div class="col">
     Van 19/08 <br>
     Tot 19/10
@@ -215,6 +221,8 @@ Artist interview
 <div class=row id="extradates">
   <div class="col">
     Extra
+
+    <div id="play"></div>
   </div>
 </div>
 

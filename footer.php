@@ -18,6 +18,5 @@
   <script src="scripts/js.js"></script>
   <!-- bodymovin -->
   <script src="scripts/anims.js"></script>
-
   </body>
 </html>

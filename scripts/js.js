@@ -1,16 +1,16 @@
-let pageNumber = 0; //"var" initial page is 0
+let pageNumber = 0; //"var" initial page is 0 NOT WORKING
 
 //hold the content of the "pages" array
 const pages = [
   {name:"Jasper van Doorn",
   text:"Jasper van Doorn is a Dutch graphic designer, graduated from illustration in 2018. Currently lives in Rotterdam and works as an independent designer and artist in the graphic design industry.</p><p>Jasper van Doorn makes use of countless digital and analogue disciplines in his graphic design practice, a few occurring examples are: 3D rendering, lettering, illustration and typography. All to achieve a high visual impact and create an immersive effect to trigger people.",
   circle:"#3e78ed",
-  interview:"Interview 1",
+  interview:"<h2>Interview</h2> <p><b><i>Question?</i></b><br>Answer.<p> <p><b><i>Question2?</i></b><br>Answer2.<p>",
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
   menucolour: "#E62A44",
-  liweight: "<b>Off-side</b>",
-  img1: "img/pip-portret1.jpg"
+  liweight: "Off-side",
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-portret2.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-portret3.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-portret4.jpg"></div>'
 },
 
   {name:"Nazif",
@@ -21,8 +21,8 @@ const pages = [
   colour:"#FAD2C8",
   menucolour:"#FAD2C8",
   workscolour: "#302D7D",
-  liweight: "<b>Playdoh</b>"
-
+  liweight: "Playdoh",
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/nazif-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/nazif-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/nazif-portret3.jpg"></div>'
 },
 
   {name:"Pip Passchier",
@@ -33,8 +33,8 @@ const pages = [
   colour: "#302D7D",
   menucolour:"#302D7D",
   workscolour: "#F7A813",
-  liweight: "<b>Attentie Warde</b>"
-
+  liweight: "Attentie Waarde",
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/pip-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/pip-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/pip-portret3.jpg"></div>'
 },
 
   {name:"Studio Bureau",
@@ -45,13 +45,13 @@ const pages = [
   colour: "#E62A44",
   menucolour:"#E62A44",
   workscolour: "#FAD2C8",
-  liweight: "<b>De maan</b>"
-
+  liweight: "De maan",
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/studiobureau-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/studiobureau-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/studiobureau-portret3.jpg"></div>'
 }
 ]
 
 //define all tags
-const nextTag = document.querySelector("img.next") //finds next.svg
+const nextTag = document.querySelector("div.circle2") //finds next.svg
 const titleTag = document.querySelector("h2.name") // finds h2
 const circleTag = document.querySelector("div.circle") //finds div.circle
 const textTag = document.querySelector("p.bio") //finds div.circle
@@ -64,7 +64,7 @@ const li1Tag = document.querySelector("li.item1") //finds div.circle
 const li2Tag = document.querySelector("li.item2") //finds div.circle
 const li3Tag = document.querySelector("li.item3") //finds div.circle
 const li4Tag = document.querySelector("li.item4") //finds div.circle
-const img1Tag = document.querySelector("img1")//finds img 1 of artist slideshow
+const sliderTag = document.querySelector("#innerslide")//finds flex section of slide
 
 
 //clarify that "next" is moving +1 down in the array and >then run updateSection
@@ -88,17 +88,22 @@ const updateSection = function(){
   fontTag.style.color = pages[pageNumber].colour
   menuTag.style.color = pages[pageNumber].workscolour
 
-  li1Tag.innerHTML = pages[pageNumber].liweight
-  li2Tag.innerHTML = pages[pageNumber].liweight
-  li3Tag.innerHTML = pages[pageNumber].liweight
-  li4Tag.innerHTML = pages[pageNumber].liweight
+  li1Tag.innerHTML = pages[0].liweight
+  li2Tag.innerHTML = pages[1].liweight
+  li3Tag.innerHTML = pages[2].liweight
+  li4Tag.innerHTML = pages[3].liweight
 
-  img1Tag.innerHTML = pages[pageNumber].img1
-  img1Tag.src = pages[pageNumber].img1
+  sliderTag.innerHTML = pages[pageNumber].slider
 
 
   circleTag.style.backgroundColor = pages[pageNumber].circle
 }
+
+//if statements HERE
+// if pageNumber = 0 {
+//   li1Tag.style.fontWeight = 900
+// }
+
 
 //addEventListener runs on load, listening for a "click"
 //when we run a click, we want to run something
@@ -110,3 +115,5 @@ nextTag.addEventListener("click", function(){
 //it needs to be specified that once "next" is clicked again, the content of <li> is reseted
 // li.item# only changes when it is the correct page
 // so if page = 1 then li1tag = updated to 1
+
+updateSection()

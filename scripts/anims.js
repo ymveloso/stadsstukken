@@ -1,4 +1,12 @@
 lottie.loadAnimation({
+  container: document.getElementById('play'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/play.json'
+})
+
+lottie.loadAnimation({
   container: document.getElementById('1'),
   renderer: 'svg',
   loop: true,

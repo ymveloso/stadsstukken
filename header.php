@@ -28,6 +28,8 @@
 <div class="container-fluid">
   <div class=row id="header">
     <div class="col">
-      <i>Stadsstukken</i> <b> Rotterdam </b>
+      <span style="text-align:left;">
+        <i>Stadsstukken</i> <b> Rotterdam</b></a></span>
+      <span style="float:right;font-weight: bold;"><a href="about.php">+</a></span>
     </div>
   </div>

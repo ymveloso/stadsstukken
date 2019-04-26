@@ -74,19 +74,39 @@ cursor: url('img/cursor1.png');
   cursor: s-resize;
 }
 
+#header a, #header a:link, #header a:visited, #header a:active {
+  text-decoration: none;
+  color:#FAD2C8;
+}
+
+#header a:hover {
+  letter-spacing: 2px;
+}
+
 /* Animation Grid */
 .col-sm#grid {
   /* border: 1px solid; */
-  /* this will make the front grid gutter-free  */
-  padding: 0px;
+  padding: 0px;   /* this will make the front grid gutter-free  */
 }
+
 /* Intro div (text) */
 .row#first {
   background-color: #f7f3ef;
-  padding: 3.5vw;
+  padding: 1.5vw 2vw 0 3vw;
 }
 .row#first i {
   color: #E62A44;
+}
+
+/* Artist profiles */
+.row#info {
+  background:  #FAD2C8;
+  /* border-radius: 0px 0px 100px 0px; */
+  transition: background-color 0.5s;
+  /* transition: all 0.5s; /* attempt to change img  transiction*/ */
+}
+.row#info p { /* for long line paragraphs // !insert media query! */
+  max-width: 80vw;
 }
 
 /* Slideshow collumn */
@@ -97,42 +117,50 @@ cursor: url('img/cursor1.png');
 .carousel {
 /* border: 10px solid red; */
 }
-.carousel img {
-/* height: 400px; */
-}
-#carousel, #works {
+
+#carousel, #works, #caroussel img {
   background-color: #F7A813;
-  transition: background-color 0.5s;
 }
 #works {
   border-radius: 0px 0px 100px;
 }
 
-/* Artist profiles */
-.row#info {
-  background:  #FAD2C8;
-  /* border-radius: 0px 0px 100px 0px; */
-  transition: background-color 0.5s;
-}
-.row#info p { /* for long line paragraphs // !insert media query! */
-  max-width: 80vw;
+#innerslide {
+/* not working */
 }
 
+.circle, .circle2 {
+  width: 30px;
+  height: 30px;
+  background-color: #3e78ed;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s;
+}
+
+img.next {  cursor: pointer;}
+
+
+/* Rest of Information */
 .row#stslide {
   background:  #FAD2C8;
 }
 
 .row#contact {background: #F7A813;}
 
-li.item1{font-weight: normal;}
+li {font-weight: normal;}
+
+li:hover {text-decoration: underline;}
 
 h2, h1 {
   font-weight: bold;
 }
 
+h2.name {
+  margin-top: 10px;
+}
 
-
-#bigtext {
+#dateannouncement {
   background-color: #302D7D;
   font-size: 26vmin;
   color: #FAD2C8;
@@ -145,14 +173,3 @@ h2, h1 {
 #extradates {
   background-color: #E62A44;
 }
-
-.circle {
-  width: 30px;
-  height: 30px;
-  background-color: #3e78ed;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s;
-}
-
-img.next {  cursor: pointer;}
