@@ -89,3 +89,59 @@ lottie.loadAnimation({
   autoplay: true,
   path: 'scripts/12.json'
 })
+lottie.loadAnimation({
+  container: document.getElementById('13'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/13.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('14'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/14.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('15'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/15.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('16'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/16.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('17'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/17.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('18'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/18.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('19'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/19.json'
+})
+lottie.loadAnimation({
+  container: document.getElementById('20'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'scripts/20.json'
+})

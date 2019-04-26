@@ -3,14 +3,16 @@
 
   <div class=row id="first">
     <div class="col">
-      <p>Kunst in de publieke ruimte. </p>
+      <p>Rotterdam is populair. Vergeleken met andere steden blijkt verdere verdichting mogelijk
+waardoor gesprekken over ‘de compacte stad’ onvermoeid doorgaan. De druk op de stad
+neemt toe en heeft invloed op onze openbare ruimte. </p>
 
-<p>De stad is niet in één <i>beeld</i> te vatten. </p>
-Ze groeit, verdicht en is continue in beweging. </p>
+<p>Stadsstukken.</p>
 
-<p>Laten we Rotterdam opnieuw leren <br>
-kennen, vanuit een ander perspectief. <br>
-Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. </p>
+<p>Met de stad als inspiratiebron, hebben jonge Rotterdamse makers unieke stukken ontwikkelt
+die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van deze stukken stad zichtbaar en nodigt uit tot bezoek en verblijf.</p>
+
+<p><i>Samen kennen wij waarde toe aan de openbare ruimte.</i></p>
 
     </div>
   </div>
@@ -27,13 +29,13 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. </p>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img1.svg" alt="First slide">
+        <img id="img1" class="d-block w-100" src="img/jasper-portret1.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img2.svg" alt="Second slide">
+        <img  id="img2" class="d-block w-100" src="img/jasper-portret2.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img3.svg" alt="Third slide">
+        <img id="img3" class="d-block w-100" src="img/jasper-portret3.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators-1" role="button" data-slide="prev">
@@ -45,7 +47,7 @@ Je kan <i>ons</i> vinden in de <i>publieke ruimte</i>. </p>
       <span class="sr-only">Next</span>
     </a>
   </div>
-
+<!-- End Image Slideshow -->
 
 </div>
 
@@ -205,7 +207,7 @@ Artist interview
 
 <div class=row id="bigtext">
   <div class="col">
-    Van 19/07 <br>
+    Van 19/08 <br>
     Tot 19/10
   </div>
 </div>

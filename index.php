@@ -5,10 +5,12 @@
 
   <div class="col-sm">
     <div class="row" id="first">
-      <p>Stukken stad bedoelt voor iedereen. </p>
-<p>Tijdelijk, iets anders, toegankelijker, leuker</p>
-
-<i>info@stadsstukken.com</i>
+      <p>
+      Stukken stad <br>
+      tijdelijk verrijkt <br>
+      door jonge makers <br>
+      <i>Stadsstukken</i>
+      </p>
       </div>
 
   </div>
@@ -102,7 +104,7 @@
       <!-- 2 of 3 -->
       </div>
 
-      <div class="col" id="18">
+      <div class="col" id="20">
       <!-- 3 of 3 -->
       </div>
     </div>

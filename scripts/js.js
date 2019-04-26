@@ -2,18 +2,19 @@ let pageNumber = 0; //"var" initial page is 0
 
 //hold the content of the "pages" array
 const pages = [
-  {name:"Artist 1",
-  text:"Text Artist 1",
+  {name:"Jasper van Doorn",
+  text:"Jasper van Doorn is a Dutch graphic designer, graduated from illustration in 2018. Currently lives in Rotterdam and works as an independent designer and artist in the graphic design industry.</p><p>Jasper van Doorn makes use of countless digital and analogue disciplines in his graphic design practice, a few occurring examples are: 3D rendering, lettering, illustration and typography. All to achieve a high visual impact and create an immersive effect to trigger people.",
   circle:"#3e78ed",
   interview:"Interview 1",
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
   menucolour: "#E62A44",
-  liweight: "<b>Off-side</b>"
+  liweight: "<b>Off-side</b>",
+  img1: "img/pip-portret1.jpg"
 },
 
-  {name:"Artist 2",
-  text:"Text Artist 2",
+  {name:"Nazif",
+  text:"Nasbami or Nazif Lopulissa is a Rotterdam based artist who graduated the Willem de Kooning Academy in 2016. His vibrant, colorful and playful style is always meticulously matched with his eye for high impact and high quality.",
   circle:"#e34a47",
   interview:"Interview 2",
   bgcolour: "#E62A44",
@@ -24,10 +25,10 @@ const pages = [
 
 },
 
-  {name:"Artist 3",
-  text:"Text Artist 3",
+  {name:"Pip Passchier",
+  text:"The worlds of sports and art lie far apart. As both athlete and artist, I aim to show connections between these worlds. I often wonder about the particular culture of amateur sports. The physical space of the sports club is the main source of inspiration for this project.",
   circle:"#f7fe00",
-  interview:"Interviewt 3",
+  interview:"Interview 3",
   bgcolour: "#FAD2C8",
   colour: "#302D7D",
   menucolour:"#302D7D",
@@ -36,8 +37,8 @@ const pages = [
 
 },
 
-  {name:"Artist 4",
-  text:"Text Artist 4",
+  {name:"Studio Bureau",
+  text:"Studio Bureau is een concept- en ontwerpbureau opgericht door Thijs van Dalen en Frans van Ditzhuijzen. Sinds 2016 werken ze aan ontwerpen die culturele instituten, bedrijven of individuen transformeren en interactie tot stand brengen met het publiek.",
   circle:"#b472e6",
   interview:"Interview 4",
   bgcolour: "#F7A813",
@@ -63,6 +64,7 @@ const li1Tag = document.querySelector("li.item1") //finds div.circle
 const li2Tag = document.querySelector("li.item2") //finds div.circle
 const li3Tag = document.querySelector("li.item3") //finds div.circle
 const li4Tag = document.querySelector("li.item4") //finds div.circle
+const img1Tag = document.querySelector("img1")//finds img 1 of artist slideshow
 
 
 //clarify that "next" is moving +1 down in the array and >then run updateSection
@@ -90,6 +92,9 @@ const updateSection = function(){
   li2Tag.innerHTML = pages[pageNumber].liweight
   li3Tag.innerHTML = pages[pageNumber].liweight
   li4Tag.innerHTML = pages[pageNumber].liweight
+
+  img1Tag.innerHTML = pages[pageNumber].img1
+  img1Tag.src = pages[pageNumber].img1
 
 
   circleTag.style.backgroundColor = pages[pageNumber].circle
