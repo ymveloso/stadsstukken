@@ -9,7 +9,7 @@ const pages = [
   bgcolour:"#302D7D",
   colour: "#FAD2C8",
   menucolour: "#E62A44",
-  liweight: "Off-side",
+  liweight: "<b>Off-side</b>",
   slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-portret2.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-portret3.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-portret4.jpg"></div>'
 },
 

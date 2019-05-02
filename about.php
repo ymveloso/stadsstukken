@@ -222,7 +222,7 @@ Artist interview
   <div class="col">
     Extra
 
-    <div id="play"></div>
+    <center><div id="play" style="width: 50%; height: auto;"></div></center>
   </div>
 </div>
 

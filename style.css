@@ -55,7 +55,8 @@ input, textarea, select {
 body {
 font-family: 'Barlow', sans-serif;
 background-color: #f7f3ef;
-font-size: 4vmin;
+font-size: 3.5vmin;
+line-height: 1.2;
 color: #302D7D;
 cursor: url('img/cursor1.png');
 }
@@ -171,5 +172,5 @@ h2.name {
 }
 
 #extradates {
-  background-color: #E62A44;
+  background-color: #FAD2C8;
 }
