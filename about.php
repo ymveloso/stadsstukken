@@ -78,10 +78,8 @@ die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van 
     </div>
 
 
-    <div class=row id="info">
-      <div class="col">
-
-
+    <div class=row>
+      <div class="col-sm-4" id="info">
 
         <h2 class="name">Artist name</h2>
 
@@ -91,12 +89,15 @@ Artist text
 
 <div class="circle"></div>
 
-<p class="interview">
-Artist interview
-</p>
-
-
       </div>
+
+
+      <div class="col" id="interview">
+            <p class="interview">
+            Artist interview
+            </p>
+      </div>
+
     </div>
 
 
@@ -136,107 +137,32 @@ Artist interview
 </div>
 
 
-<div class="row" id="stslide">
-  <div class="col" >
-    <h2>Stad </h2>
-    <p>About the project</p>
-  </div>
-
-    <div class="col-sm-8">
-
-<!-- Image Slideshow 2 -->
-<div id="carouselExampleIndicators-2" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/img1.svg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/img2.svg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/img3.svg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!-- End Image Slideshow 2-->
-
-</div>
-
-  </div>
-
-
-  <!-- Nested collumns / Anim Grid 2 -->
-<div class="row">
-  <div class="col-sm" id="grid">
-    <div class="row no-gutters">
-      <div class="col" id="7">
-      </div>
-
-      <div class="col" id="8">
-      </div>
-
-      <div class="col" id="9">
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm" id="grid">
-    <div class="row no-gutters">
-      <div class="col" id="10">
-      </div>
-
-      <div class="col" id="11">
-      </div>
-
-      <div class="col" id="12">
-      </div>
-    </div>
-  </div>
-
-</div>
 
 
 
 
-<div class=row id="dateannouncement">
+<div class=row id="date">
   <div class="col">
-    Van 19/08 <br>
-    Tot 19/10
+    JUL/AUG/SEP
   </div>
 </div>
 
-<div class=row id="extradates">
+<div class=row id="location">
   <div class="col">
-    Extra
+    Rotterdam
 
-    <center><div id="play" style="width: 50%; height: auto;"></div></center>
+    <center>
   </div>
 </div>
 
 <div class=row id="contact">
   <div class="col">
-  <p>Contact</p>
-  <br><br>
-  <p></p>
+  <p>Bekijk de updates en foto’s via <b>facebook</b> en <b>instagram</b>, meld je aan voor de <b>niewsbrief</b> of stuur ons een bericht via <b>info@stadsstukken.com</b></p>
   </div>
 </div>
 
 <div class=row id="footer">
   <div class="col">
-    Footer
   </div>
 </div>
 

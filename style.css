@@ -54,11 +54,14 @@ input, textarea, select {
 
 body {
 font-family: 'Barlow', sans-serif;
-background-color: #f7f3ef;
+background-color: #f2ede7;
 font-size: 3.5vmin;
 line-height: 1.2;
 color: #302D7D;
 cursor: url('img/cursor1.png');
+
+transition: all 0.5s;
+
 }
 
 #header {
@@ -100,14 +103,17 @@ cursor: url('img/cursor1.png');
 }
 
 /* Artist profiles */
-.row#info {
-  background:  #FAD2C8;
-  /* border-radius: 0px 0px 100px 0px; */
-  transition: background-color 0.5s;
+.col-sm-4#info {
+  background:  #fff;
+  border-radius: 0px 0px 100px 0px;
   /* transition: all 0.5s; /* attempt to change img  transiction*/ */
 }
-.row#info p { /* for long line paragraphs // !insert media query! */
-  max-width: 80vw;
+.col-sm-4#info, .col#interview, .col-sm-4#works {
+  padding: 1.5em;
+}
+
+#works {
+  border-radius: 0px 0px 100px;
 }
 
 /* Slideshow collumn */
@@ -120,11 +126,10 @@ cursor: url('img/cursor1.png');
 }
 
 #carousel, #works, #caroussel img {
-  background-color: #F7A813;
+  background-color: #fff;
 }
-#works {
-  border-radius: 0px 0px 100px;
-}
+
+
 
 #innerslide {
 /* not working */
@@ -147,8 +152,6 @@ img.next {  cursor: pointer;}
   background:  #FAD2C8;
 }
 
-.row#contact {background: #F7A813;}
-
 li {font-weight: normal;}
 
 li:hover {text-decoration: underline;}
@@ -161,16 +164,41 @@ h2.name {
   margin-top: 10px;
 }
 
-#dateannouncement {
-  background-color: #302D7D;
-  font-size: 26vmin;
-  color: #FAD2C8;
-  line-height: 0.9;
-  text-align: center;
+#date, #location {
+  font-size: 25vmin;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 900;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  word-wrap: break-word;
+
 }
 
-#extradates {
-  background-color: #FAD2C8;
+#date {
+  background-color: #302D7D;
+  color: #FAD2C8;
+}
+
+#location {
+  color: #E62A44;
+}
+
+.row#contact {
+  background: #Fff;
+  color: #F7A813;
+  padding: 3vh;
+  padding-right: 35vw;
+}
+
+.row#contact b {
+  color: #302D7D;
+}
+
+.row#footer {
+height: 7vh;
 }
