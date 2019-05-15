@@ -7,13 +7,11 @@
 
     <div id="intro">
       <p>
-        <i>Stukken stad <br>
+        Stukken stad <br>
         tijdelijk verrijkt <br>
       door jonge makers <br>
-    </i>
-    </p>
-
-      <!-- <i class="st">Stadsstukken</i> -->
+      <i>Stadsstukken</i>
+      </p>
       </div>
 
   </div>

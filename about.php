@@ -1,21 +1,132 @@
 <?php include 'header.php';?>
 
+  <div class="row" >
 
-  <div class=row id="first">
-    <div class="col">
-      <p>Rotterdam is populair. Vergeleken met andere steden blijkt verdere verdichting mogelijk
-waardoor gesprekken over ‘de compacte stad’ onvermoeid doorgaan. De druk op de stad
-neemt toe en heeft invloed op onze openbare ruimte. </p>
+    <div class="col-sm-8" id="grid">
 
-<p>Stadsstukken.</p>
+      <div id="first">
+                <p>Onze stad kent ondanks haar groeiende populariteit nog een hoop stille, haast onontdekte plekken. Ze worden genegeerd omdat ze voor lief worden genomen, of een tikkie eigenaardig zijn. Juist deze ongeziene plekken geven Rotterdam een eigen identiteit. Helaas staat er steeds meer druk op deze vrije stukken stad.</p>
 
-<p>Met de stad als inspiratiebron, hebben jonge Rotterdamse makers unieke stukken ontwikkelt
-die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van deze stukken stad zichtbaar en nodigt uit tot bezoek en verblijf.</p>
+          <p><b>Stadsstukken</b> geeft een unieke blik op de openbare ruimtes die Rotterdam rijk is en bevraagt deze door stil te staan bij hun diversiteit en potentie. Van juli tot en met augustus is op Zuidplein, De Esch, het Nassauhavenpark en het Lloydkwartier werk te zien van jonge Rotterdamse kunstenaars die hierop inspelen. Met hun installaties geven ze de rafelrandjes van Rotterdam de aandacht die ze verdienen. </p>
 
-<p><i>Samen kennen wij waarde toe aan de openbare ruimte.</i></p>
+          <p>
+          De kunstwerken zijn geïnspireerd door de stad en vrij te bezichtigen. Leuk voor de toevallige voorbijganger, maar ook voor de bewuste avonturier een uitstekende reden om een onbekend Rotterdam te gaan ontdekken.
+        </p>
+
+
+        </div>
 
     </div>
+
+    <div class="col-sm-4" id="grid">
+      <div class="row no-gutters">
+            <div class="col" id="0">
+              <!-- 1 of 2 -->
+            </div>
+
+            <div class="col" id="1">
+              <!-- 2 of 2 -->
+            </div>
+
+        </div>
+
+        <div class="col-sm" id="grid">
+            <div class="row no-gutters">
+                  <div class="col" id="6" >
+                    <!-- 1 of 2 -->
+                  </div>
+
+                  <div class="col" id="0">
+                    <!-- 2 of 2 -->
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+
+
   </div>
+
+
+  <div class="row">
+    <div class="col-sm" id="grid">
+      <div class="row no-gutters">
+            <div class="col" id="0">
+              <!-- 1 of 2 -->
+            </div>
+
+            <div class="col" id="0">
+              <!-- 2 of 2 -->
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm" id="grid">
+          <div class="row no-gutters">
+                <div class="col" id="0">
+                  <!-- 1 of 2 -->
+                </div>
+
+                <div class="col" id="0">
+                  <!-- 2 of 2 -->
+                </div>
+            </div>
+        </div>
+
+      <div class="col-sm" id="grid">
+          <div class="row no-gutters">
+                <div class="col" id="0">
+                  <!-- 1 of 2 -->
+                </div>
+
+                <div class="col" id="0">
+                  <!-- 2 of 2 -->
+                </div>
+            </div>
+        </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm" id="grid">
+      <div class="row no-gutters">
+            <div class="col" id="0">
+              <!-- 1 of 2 -->
+            </div>
+
+            <div class="col" id="0">
+              <!-- 2 of 2 -->
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm" id="grid">
+          <div class="row no-gutters">
+                <div class="col" id="0">
+                  <!-- 1 of 2 -->
+                </div>
+
+                <div class="col" id="0">
+                  <!-- 2 of 2 -->
+                </div>
+            </div>
+        </div>
+
+      <div class="col-sm" id="grid">
+          <div class="row no-gutters">
+                <div class="col" id="0">
+                  <!-- 1 of 2 -->
+                </div>
+
+                <div class="col" id="10">
+                  <!-- 2 of 2 -->
+                </div>
+            </div>
+        </div>
+  </div>
+
+  <br><br>
 
   <div class="row" id="slidemenu">
       <div class="col-sm-8" id="carousel">
@@ -60,17 +171,26 @@ die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van 
 
 
       <div class="col-sm-4" id="works" >
-        <h2>Stukken </h2>
-<p>Kunstwerken info</p>
 
 <ul>
-  <li class="item1">Off-Side</li>
-  <li class="item2">Playdoh</li>
-  <li class="item3">Attentie waarde</li>
-  <li class="item4">De maan</li>
+  <li class="item1">
+    List item 1
+  </li>
+
+  <li class="item2">
+    List item 2
+  </li>
+
+  <li class="item3">
+  List item 3
+  </li>
+
+  <li class="item4">
+    List item 4
+  </li>
 </ul>
 
-<div class="circle2"></div>
+<div class="circle2" style="visibility: hidden;"></div>
 
 
 
@@ -78,27 +198,65 @@ die de openbare ruimte verrijkt. Het werk  maakt de diversiteit en potentie van 
     </div>
 
 
-    <div class=row>
-      <div class="col-sm-4" id="info">
+<div class=row>
 
-        <h2 class="name">Artist name</h2>
+  <div class="col-sm-4" id="info">
+    <div id="biocol">
+    <h2 class="name">Artist name</h2>
+    <p class="bio">Artist text</p>
+    <div class="circle"></div>
 
-<p class="bio">
-Artist text
-</p>
+</div>
 
-<div class="circle"></div>
+              <div class="col" id="grid">
+                <div class="row no-gutters">
+                  <div class="col-sm" id="grid">
+                      <div class="row no-gutters">
+                            <div class="col" id="20">
+                              <!-- 1 of 2 -->
+                            </div>
 
-      </div>
+                            <div class="col" id="16" style="visibility: hidden;">
+                              <!-- 2 of 2 -->
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm" id="grid">
+                      <div class="row no-gutters">
+                            <div class="col" id="9" style="visibility: hidden;">
+                              <!-- 1 of 2 -->
+                            </div>
+
+                            <div class="col" id="13">
+                              <!-- 2 of 2 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm" id="grid">
+                        <div class="row no-gutters">
+                              <div class="col" id="17">
+                                <!-- 1 of 2 -->
+                              </div>
+
+                              <div class="col" id="12" style="visibility: hidden;">
+                                <!-- 2 of 2 -->
+                              </div>
+                          </div>
+                      </div>
+                </div>
 
 
-      <div class="col" id="interview">
-            <p class="interview">
-            Artist interview
-            </p>
-      </div>
+  </div>
 
-    </div>
+
+  <div class="col" id="interview">
+    <p class="interview">Artist interview</p>
+  </div>
+
+</div>
 
 
     <!-- Nested collumns / Anim Grid 1 -->
@@ -106,7 +264,7 @@ Artist text
 
 <div class="col-sm" id="grid">
 <div class="row no-gutters">
-      <div class="col" id="1">
+      <div class="col" id="15">
       </div>
 
       <div class="col" id="2">
@@ -126,10 +284,10 @@ Artist text
       <div class="col" id="4">
       </div>
 
-      <div class="col" id="5">
+      <div class="col" id="11">
       </div>
 
-      <div class="col" id="6">
+      <div class="col" id="14">
       </div>
 
   </div>
@@ -150,19 +308,6 @@ Artist text
 <div class=row id="location">
   <div class="col">
     Rotterdam
-
-    <center>
-  </div>
-</div>
-
-<div class=row id="contact">
-  <div class="col">
-  <p>Bekijk de updates en foto’s via <b>facebook</b> en <b>instagram</b>, meld je aan voor de <b>niewsbrief</b> of stuur ons een bericht via <b>info@stadsstukken.com</b></p>
-  </div>
-</div>
-
-<div class=row id="footer">
-  <div class="col">
   </div>
 </div>
 

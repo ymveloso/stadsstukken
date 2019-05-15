@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>2. Stads</title>
+    <title>Stadsstukken</title>
     <meta charset="utf-8">
     <meta name="generator" content="SuperHi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- Barlow -->
-<link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="style.css">
 <!-- Lottie -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.4/lottie.js'></script>
 
@@ -29,7 +32,11 @@
   <div class=row id="header">
     <div class="col">
       <span style="text-align:left;">
-        <i>Stadsstukken</i> <b> Rotterdam</b></a></span>
-      <span style="float:right;font-weight: bold;"><a href="about.php">+</a></span>
+      <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
+
+      <!-- <span style="font-size:3.5vmin;">▼</span> -->
+      <span style="float:right;font-weight: 10000;"><a href="about.php">+</a></span>
+  <!-- <div class="col" id="play"></div> -->
+
     </div>
   </div>
