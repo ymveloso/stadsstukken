@@ -2,7 +2,6 @@
 <!--
 Colophon
 Joep & Yara
-fuck off this code byatches
 -->
 
 

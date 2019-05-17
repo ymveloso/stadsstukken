@@ -293,11 +293,16 @@ padding-top: 0;
 
 
 @media only screen and (max-width: 600px) {
-  div.example {
-    display: none;
-  }
-
-
   .row#footer {
     height: 3vh;
+}
+
+#afterbio {
+  display: none;
+}
+
+/* body {
+  background: red;
+  } */
+
 }

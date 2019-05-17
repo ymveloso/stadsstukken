@@ -13,7 +13,7 @@
 
   <div class="row" >
 
-    <div class="col-sm-8" id="grid">
+    <div class="col-lg-8" id="grid">
 
       <div id="first">
                 <p>Onze stad kent ondanks haar groeiende populariteit nog een hoop stille, haast onontdekte plekken. Ze worden genegeerd omdat ze voor lief worden genomen, of een tikkie eigenaardig zijn. Juist deze ongeziene plekken geven Rotterdam een eigen identiteit. Helaas staat er steeds meer druk op deze vrije stukken stad.</p>
@@ -29,7 +29,7 @@
 
     </div>
 
-    <div class="col-sm-4" id="grid">
+    <div class="col-lg-4" id="grid">
       <div class="row no-gutters">
             <div class="col" id="0">
               <!-- 1 of 2 -->
@@ -39,9 +39,10 @@
               <!-- 2 of 2 -->
             </div>
 
+
         </div>
 
-        <div class="col-sm" id="grid">
+        <div class="col-lg" id="grid">
             <div class="row no-gutters">
                   <div class="col" id="6" >
                     <!-- 1 of 2 -->
@@ -61,7 +62,7 @@
 
 
   <div class="row">
-    <div class="col-sm" id="grid">
+    <div class="col-lg" id="grid">
       <div class="row no-gutters">
             <div class="col" id="0">
               <!-- 1 of 2 -->
@@ -73,7 +74,7 @@
         </div>
       </div>
 
-      <div class="col-sm" id="grid">
+      <div class="col-lg" id="grid">
           <div class="row no-gutters">
                 <div class="col" id="0">
                   <!-- 1 of 2 -->
@@ -85,7 +86,7 @@
             </div>
         </div>
 
-      <div class="col-sm" id="grid">
+      <div class="col-lg" id="grid">
           <div class="row no-gutters">
                 <div class="col" id="0">
                   <!-- 1 of 2 -->
@@ -100,7 +101,7 @@
 
 
   <div class="row">
-    <div class="col-sm" id="grid">
+    <div class="col-lg" id="grid">
       <div class="row no-gutters">
             <div class="col" id="0">
               <!-- 1 of 2 -->
@@ -112,7 +113,7 @@
         </div>
       </div>
 
-      <div class="col-sm" id="grid">
+      <div class="col-lg" id="grid">
           <div class="row no-gutters">
                 <div class="col" id="0">
                   <!-- 1 of 2 -->
@@ -124,7 +125,7 @@
             </div>
         </div>
 
-      <div class="col-sm" id="grid">
+      <div class="col-lg" id="grid">
           <div class="row no-gutters">
                 <div class="col" id="0">
                   <!-- 1 of 2 -->
@@ -140,7 +141,7 @@
   <br><br>
 
   <div class="row" id="slidemenu">
-      <div class="col-sm-8" id="carousel">
+      <div class="col-lg-8" id="carousel">
 
   <!-- Image Slideshow -->
   <div id="carouselExampleIndicators-1" class="carousel slide" data-ride="carousel">
@@ -181,7 +182,7 @@
 
 
 
-      <div class="col-sm-4" id="works" >
+      <div class="col-lg-4" id="works" >
 
 <ul>
   <li class="item1">
@@ -211,7 +212,7 @@
 
 <div class=row>
 
-  <div class="col-sm-4" id="info">
+  <div class="col-lg-4" id="info">
     <div id="biocol">
     <h2 class="name">Artist name</h2>
     <p class="bio">Artist text</p>
@@ -220,7 +221,7 @@
 </div>
 
               <div class="col" id="grid">
-                <div class="row no-gutters">
+                <div class="row no-gutters" id="afterbio">
                   <div class="col-sm" id="grid">
                       <div class="row no-gutters">
                             <div class="col" id="20">
@@ -235,7 +236,7 @@
                   </div>
 
                   <div class="col-sm" id="grid">
-                      <div class="row no-gutters">
+                      <div class="row no-gutters" id="afterbio">
                             <div class="col" id="9" style="visibility: hidden;">
                               <!-- 1 of 2 -->
                             </div>
@@ -263,7 +264,7 @@
     <!-- Nested collumns / Anim Grid 1 -->
     <div class="row">
 
-<div class="col-sm" id="grid">
+<div class="col-lg" id="grid">
 <div class="row no-gutters">
       <div class="col" id="15">
       </div>
@@ -280,7 +281,7 @@
 
 
 
-<div class="col-sm" id="grid">
+<div class="col-lg" id="grid">
 <div class="row no-gutters">
       <div class="col" id="4">
       </div>
