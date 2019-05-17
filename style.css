@@ -83,12 +83,39 @@ cursor: url('img/cursor1.png');
 
 
 /* Artist profiles */
-.col-sm-4#info {
+h2.name {
+  font-size: 3.5vmin;
+  margin-bottom: 0.2em;
+  color: #E62A44;
+  margin-block-start: 0.1em;
+
+}
+p.bio {
+  font-size: 2.6vmin;
+}
+
+p.bio b, p.bio i {
+  display: block;
+}
+
+
+p.bio a, p.bio a:link, p.bio a:active {
+  color:#302D7D;
+  /* margin-top: 2em; */
+}
+
+p.bio a:hover {
+  border-bottom: 3px solid #FAD2C8;
+  text-decoration: none;
+}
+
+
+.col-lg-4#info {
   /* background:  #fff;
   border-radius: 0px 0px 100px 0px; */
   /* transition: all 0.5s; /* attempt to change img  transiction*/ */
 }
-.col-sm-4#info, .col#interview, .col-sm-4#works {
+.col-lg-4#info, .col#interview, .col-lg-4#works {
   padding: 1.5em;
 }
 
@@ -102,7 +129,7 @@ cursor: url('img/cursor1.png');
 }
 
 /* Slideshow collumn */
-.col-sm-8 {
+.col-lg-8 {
   padding:0; /* this keeps the slideshow at 100% width*/
 }
 
@@ -114,23 +141,9 @@ cursor: url('img/cursor1.png');
   background-color: #fff;
 }
 
-
-
 #innerslide {
 /* not working */
 }
-
-/* Artist websites */
-p.bio a, p.bio a:link, p.bio a:active {
-  color:#302D7D;
-}
-
-p.bio a:hover {
-  border-bottom: 3px solid #FAD2C8;
-  text-decoration: none;
-}
-
-
 
 .circle, .circle2 {
   width: 30px;
@@ -155,10 +168,6 @@ li b {
   display: block;
 }
 
-li.item3 {
-  color: #302D7D;
-}
-
 
 
 li:hover {text-decoration: underline; cursor: pointer;}
@@ -168,20 +177,6 @@ h2, h1 {
   font-weight: bold;
 }
 
-h2.name {
-  font-size: 3.5vmin;
-  margin-bottom: 12px;
-  color: #E62A44;
-
-}
-
-p.bio {
-  font-size: 2.5vmin;
-
-}
-p.bio b, p.bio i {
-  display: block;
-}
 
 #date, #location {
   font-size: 25vmin;
@@ -292,7 +287,7 @@ padding-top: 0;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 860px) {
   .row#footer {
     height: 3vh;
 }
@@ -300,7 +295,6 @@ padding-top: 0;
 #afterbio {
   display: none;
 }
-
 /* body {
   background: red;
   } */

@@ -1,60 +1,56 @@
-let pageNumber = 0; //"var" initial page is 0 NOT WORKING
+//Beta 1.0
+//Welcome whoever you are
+//vanilla js was learned on this very document
+//its a process innit
+
+let pageNumber = 0; //"var" initial page is 0 NOT WORKING <<<< i didnt run the function thats why
 
 //hold the content of the "pages" array
 const pages = [
-  {name:"Jasper van Doorn",
-  text:'Jasper van Doorn (1993, NL) is een grafisch ontwerper. In zijn werk maakt hij gebruik van verschillende digitale en analoge technieken om impact te creëren. Vaak komt zijn inspiratie vanuit alledaagse objecten die normaal over het hoofd worden gezien. Met technieken als 3D rendering, belettering, illustratie en typografie focust van Doorn zich op het creëren van een hoge impact met een visuele spanning waardoor je getriggerd wordt. <br><br><b><i><a href="#">jaspervandoorn.nl</a></i></b>',
-  circle:"#3e78ed",
-  interview:"<p><b><i>Wat was de inspiratie voor ’Attentiewaarde’?</b></i><br>    Verkeersborden worden voornamelijk gewaardeerd vanwege hun functie, net als de rest van het netwerk van functionele objecten in de openbare ruimte zoals wegbelijning, stoplichten, verkeerspalen, etc. Echter zijn de kleuren, vormen, composities en materialen eindeloos; waarom zouden we niet verder kijken dan enkel de functie? Ik ben gaan kijken hoe ik functionele objecten als medium kan inzetten en de huidige functie achterwege kan laten.</p>     <p><b><i>Waarom heb je juist voor deze locatie gekozen?</b></i><br>    De drukte van de stad is iets wat mij aantrekt, maar ook wegduwt. Ik kom graag in het Nassauhavenpark, er is hier veel ruimte en rust – een soort balans tussen stad en natuur. Niet oer-natuur, maar gewoon wind, eb en vloed, een paar bomen, wat gras en heel veel eenden, meeuwen, en ganzen. Het park heeft een aantal bankjes waar zelden mensen op zitten, er komen hier eigenlijk alleen mensen die een rondje lopen met de hond. Zelf kom ik graag om naar de eendjes te kijken.</p>       <p><b><i>Op welke manier heeft deze locatie invloed gehad op je proces?</b></i><br>        De haven wordt al jaren niet meer gebruikt en door de brede opening richting de Nieuwe Maas heeft de wind er vrij spel. Het idee is dat de werken onderdeel worden van het park en speels meedraaien met de wind, misschien als een soort van voorbeeldfunctie voor hoe het park te gebruiken.</p>     <p><b><i>Welke invloed heeft je werk op deze locatie?</b></i><br>     Dat weet ik niet, maar ik hoop dat de bewoners de verandering in het park waarderen en even op een bankje gaan zitten om misschien maar even niets te doen.</p>     <p><b><i>Hoe zie jij Rotterdam het liefst?</b></i><br>Beetje groen, beetje beton.<p>",
-  liweight: "<b>Lloydkwartier</b><i>Off-side</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-3.jpg"></div>'
-},
-
-  {name:"Nazif",
-  text:"Nazif Lopulissa (1990, NL) onderzoekt de vormstructuur van objecten en plaatsen uit het dagelijkse leven. Door herkenbare vormen te verwerken tot kleurrijke composities in verschillende materialen en technieken, balanceert zijn werk altijd tussen speelse vrijheid en de manier waarop vormen, symbolen en materialen betekenis krijgen. Zo bieden ze reflectie op de tegenstrijdigheden tussen vorm, functie, ontwerp en betekenis, en de manier waarop wij beeldend en materieel invulling geven aan de wereld om ons heen. Lopulissa’s werk verwijst naar de tijd waarin het gewicht van het volwassen leven nog geen beperkingen oplegt.",
-  circle:"#e34a47",
-  interview:"Interview 2",
-  liweight: "<b>Zuidplein</b><i>Playdoh</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/nazif-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/nazif-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/nazif-3.jpg"></div>'
-},
 
   {name:"Pip Passchier",
-  text:"Pip Passchier (1995, NL) is een autonoom beeldend kunstenaar. In haar werk onderzoekt ze het grensgebied van sport en kunst waarbij ze speelt met de herkenbaarheid en de regels binnen sport en spel. Wat doet de visuele beeldtaal van sport met mensen en wat gebeurt er als spelregels vervagen?",
-  circle:"#f7fe00",
-  interview:"<b>Wat was de inspiratie voor ‘Off-Side’?</b><br>Ik onderzoek de openbare ruimte door deze te bekijken als speelveld. Daarin ben ik me bewust van bestaande vormen en lijnen, vaak gedirigeerd door ingrepen van de mens. De vormgeving van de gekozen locatie, bekeken als speelveld, is hierbij mijn inspiratiebron.<br><b>Waarom heb je juist voor deze locatie gekozen?</b> <br>De grote loze lege ruimte tussen de gebouwen prikkelde mij om er beweging en kleur in te brengen. <br><b>Welke invloed heeft je werk op deze locatie?</b><br> Mijn werk heeft als doel dat je anders kunt gaan kijken en reageren op en naar de inrichting van de publieke ruimte. Het werk reageert op de verdichting van de stad, kan de inrichting van de openbare ruimte een dubbele functie hebben? Hoe kunnen we de groenstrook alssportveld gebruiken?<br><b>Wat is jouw toekomstdroom voor de stad Rotterdam?</b><br>Rotterdam als speeltuin, met ruimte voor experiment.",
-  liweight: "<b>Nassauhavenpark</b><i>Attentiewaarde</i>",
+  text:'Pip Passchier (1995, NL) is een autonoom beeldend kunstenaar. In haar werk onderzoekt ze het grensgebied van sport en kunst waarbij ze speelt met de herkenbaarheid en de regels binnen sport en spel. Wat doet de visuele beeldtaal van sport met mensen en wat gebeurt er als spelregels vervagen?<br><b><i><a href="http://www.pippasschier.nl">pippasschier.nl</a></i></b>',
+  interview:"<p><b>Wat was de inspiratie voor ‘Off-Side’?</b><br>Ik onderzoek de openbare ruimte door deze te bekijken als speelveld. Daarin ben ik me bewust van bestaande vormen en lijnen, vaak gedirigeerd door ingrepen van de mens. De vormgeving van de gekozen locatie, bekeken als speelveld, is hierbij mijn inspiratiebron.</p> <p> <b>Waarom heb je juist voor deze locatie gekozen?</b> <br>De grote loze lege ruimte tussen de gebouwen prikkelde mij om er beweging en kleur in te brengen. </p> <p><b>Welke invloed heeft je werk op deze locatie?</b><br> Mijn werk heeft als doel dat je anders kunt gaan kijken en reageren op en naar de inrichting van de publieke ruimte. Het werk reageert op de verdichting van de stad, kan de inrichting van de openbare ruimte een dubbele functie hebben? Hoe kunnen we de groenstrook alssportveld gebruiken?</p> <p><b>Hoe beïnvloedt Rotterdam jouw werk in het algemeen?</b><br> De structuren en patronen binnen de stad beïnvloeden mijn werk. Ik onderzoek hoe de mens zich beweegt binnen deze omgeving.</p> <p><b>Wat is jouw toekomstdroom voor de stad Rotterdam?</b><br>Rotterdam als speeltuin, met ruimte voor experiment.</p>",
+  liweight: '<b>Lloydstraat</b><i>Off-side</i>',
   slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/pip-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/pip-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/pip-3.jpg"></div>'
 },
 
+{name:"Jasper van Doorn",
+text:'Jasper van Doorn (1993, NL) is een grafisch ontwerper. In zijn werk maakt hij gebruik van verschillende digitale en analoge technieken om impact te creëren. Vaak komt zijn inspiratie vanuit alledaagse objecten die normaal over het hoofd worden gezien. Met technieken als 3D rendering, belettering, illustratie en typografie focust van Doorn zich op het creëren van een hoge impact met een visuele spanning waardoor je getriggerd wordt. <br><b><i><a href="#">jaspervandoorn.nl</a></i></b>',
+interview:"<p><b><i>Wat was de inspiratie voor ’Attentiewaarde’?</b></i><br>    Verkeersborden worden voornamelijk gewaardeerd vanwege hun functie, net als de rest van het netwerk van functionele objecten in de openbare ruimte zoals wegbelijning, stoplichten, verkeerspalen, etc. Echter zijn de kleuren, vormen, composities en materialen eindeloos; waarom zouden we niet verder kijken dan enkel de functie? Ik ben gaan kijken hoe ik functionele objecten als medium kan inzetten en de huidige functie achterwege kan laten.</p>     <p><b><i>Waarom heb je juist voor deze locatie gekozen?</b></i><br>    De drukte van de stad is iets wat mij aantrekt, maar ook wegduwt. Ik kom graag in het Nassauhavenpark, er is hier veel ruimte en rust – een soort balans tussen stad en natuur. Niet oer-natuur, maar gewoon wind, eb en vloed, een paar bomen, wat gras en heel veel eenden, meeuwen, en ganzen. Het park heeft een aantal bankjes waar zelden mensen op zitten, er komen hier eigenlijk alleen mensen die een rondje lopen met de hond. Zelf kom ik graag om naar de eendjes te kijken.</p>       <p><b><i>Op welke manier heeft deze locatie invloed gehad op je proces?</b></i><br>        De haven wordt al jaren niet meer gebruikt en door de brede opening richting de Nieuwe Maas heeft de wind er vrij spel. Het idee is dat de werken onderdeel worden van het park en speels meedraaien met de wind, misschien als een soort van voorbeeldfunctie voor hoe het park te gebruiken.</p>     <p><b><i>Welke invloed heeft je werk op deze locatie?</b></i><br>     Dat weet ik niet, maar ik hoop dat de bewoners de verandering in het park waarderen en even op een bankje gaan zitten om misschien maar even niets te doen.</p>     <p><b><i>Hoe zie jij Rotterdam het liefst?</b></i><br>Beetje groen, beetje beton.<p>",
+liweight: "<b>Nassauhavenpark</b><i>Attentiewaarde</i>",
+slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-3.jpg"></div>'
+},
+
+
+  {name:"Nazif Lopulissa",
+  text:'Nazif Lopulissa (1990, NL) onderzoekt de vormstructuur van objecten en plaatsen uit het dagelijkse leven. Door herkenbare vormen te verwerken tot kleurrijke composities in verschillende materialen en technieken, balanceert zijn werk altijd tussen speelse vrijheid en de manier waarop vormen, symbolen en materialen betekenis krijgen. Zo bieden ze reflectie op de tegenstrijdigheden tussen vorm, functie, ontwerp en betekenis, en de manier waarop wij beeldend en materieel invulling geven aan de wereld om ons heen. Lopulissa’s werk verwijst naar de tijd waarin het gewicht van het volwassen leven nog geen beperkingen oplegt.<br><b><i><a href="https://nasbami.com/">nasbami.com/</a></i></b>',
+  interview:"<p><b>Wat was de inspiratie voor ‘Wigle Wigle’?</b><br> Tot voor kort geleden maakte ik vooral tweedimensionaal werk waarin ik vormen en hun betekenis bestudeerde. Ik wilde dit al een tijd ook doen in driedimensionaal werk. Ik heb gekeken hoe ik lijnen en speelse vormen kan vertalen naar levensgrote objecten in de publieke ruimte.</p><p><b>Welke invloed wil je dat je werk heeft op deze locatie?</b><br>Zuidplein is eigenlijk een hele onpersoonlijke omgeving. Er rijden veel auto’s, en het is een plek waar mensen eerder langs reizen dan verblijven. Misschien dat de stad daarom ook zo bezig is met de ontwikkeling van Zuidplein de komende jaren. Met een opvallend, imposant en kleurrijk werk hoop ik dat de positieve energie per vierkante meter toeneemt. </p><p><b>Hoe zie jij Rotterdam het liefst?</b><br>Alles wordt tegenwoordig de lucht in gebouwd. Op grondniveau gebeurt er dus steeds minder. Ik denk dat hier voor Rotterdam juist kansen liggen. Op sommige plekken moet tegenwoordig een percentage van de projectontwikkeling aan de publieke ruimte worden besteed. Zo gaan mensen meer nadenken over hoe we de stad beter en interessanter kunnen maken voor iedereen. Kunst kan juist hier een belangrijke rol spelen. Musea kunnen wel blijven proberen om publiek naar binnen te halen, maar mij lijkt het juist fantastisch om de kunst naar de mensen toe te brengen. Vooral in hun dagelijkse leefomgeving.</p><p><b>Wat is jouw toekomstdroom voor de stad?</b><br>Ik ben al een tijd bezig met een onderzoek naar speeltuinen in Rotterdam. Net als het werk voor Stadstukken ben ik daarbij op zoek naar speelsheid in vorm, en hoe ik dit in de publieke ruimte van Rotterdam kan brengen. Wat mij betreft kan Rotterdam nog kunstzinniger worden. En graag een Warung Mini op elke straathoek.</p>",
+  liweight: "<b>Zuidplein</b><i>Wigle Wigle</i>",
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/nazif-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/nazif-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/nazif-3.jpg"></div>'
+  },
+
   {name:"Studio Bureau",
-  text:"Studio Bureau is een concept- en ontwerpbureau opgericht door Thijs van Dalen (1995, NL) en Frans van Ditzhuijzen (1995, NL). Ze staan bekend om projecten die zich bevinden op het snijvlak van grafisch ontwerp, ruimtelijk ontwerp en kunst, vaak in de alledaagse ruimte om ons heen. Zo ontstaan er interdisciplinaire ontwerpen met een verrassend resultaat. “In de eerste plaats maken wij ons werk voor mensen, het publiek maakt ons werk compleet.”",
-  circle:"#b472e6",
-  interview:"Interview 4",
-  liweight: "<b>De Esch</b><i>De maan</i>",
+  text:'Studio Bureau is een concept- en ontwerpbureau opgericht door Thijs van Dalen (1988) en Frans van Ditzhuijzen (1998). Ze staan bekend om projecten die zich bevinden op het snijvlak van grafisch ontwerp, ruimtelijk ontwerp en kunst – vaak in de alledaagse ruimte om ons heen.<br><b><i><a href="http://studiobureau.nl">studiobureau.nl/</a></i></b>',
+  interview:"<p><b>Wat was de inspiratie voor ‘Urban Moons’?</b><br> Wij vinden het een fascinerend idee dat iets ‘buitenaards’ zoals de maan invloed heeft op de Maas. Door de zwaartekracht van de maan ontstaat het getij en stijgt en daalt het water van de Maas. Dat heeft weer invloed op ons landschap en de stad, zo is de natuur de aannemer van de stad.</p> <p><b>Op welke manier heeft deze locatie invloed gehad op jullie proces?</b><br> Het idee dat wij als inwoners van Rotterdam zo dicht bij het water leven, waar we elders in Nederland hoge dijken bouwen en uiterwaarden hebben die een afstand tot het water creëren, heeft ons geïnspireerd.</p> <p><b>Welke invloed willen jullie dat het werk heeft op deze locatie?</b><br> We hopen dat het werk je bewuster maakt over hoe dicht wij bij het water wonen en dat het water wordt beïnvloed door natuurlijke krachten van buiten onze atmosfeer. De zichtbaarheid van het stijgende en dalende waterpeil (eb en vloed) verwacht je langs de kust, maar in een stad is dit verrassend; hier sta je niet elke dag bij stil.</p> <p><b>Wat is jullie toekomstdroom voor de stad Rotterdam?</b><br> Een stad waar de innovatie niet alleen binnen de vergaderruimtes op gele post-its blijft, maar ook letterlijk zichtbaar en tastbaar wordt in de fysieke ruimte. In Rotterdam moet ruimte blijven voor spontaniteit en vindingrijke initiatieven die de stad vormen en identiteit geven. </p>",
+  liweight: "<b>De Esch</b><i>Urban Moons</i>",
   slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/studiob-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/studiob-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/studiob-3.jpg"></div>'
 }
 ]
 
 //define all tags
-const nextTag = document.querySelector("div.circle2") //finds circle / now next
-
-const slideTag = document.querySelector("#carousel") //finds div.circle
-
-//const fontTag = document.querySelector("#info") //finds div.circle
-
-
-const titleTag = document.querySelector("h2.name") // title
+const slideTag = document.querySelector("#carousel") // slideshow
+const titleTag = document.querySelector("h2.name") // artist name
 const bioTag = document.querySelector("p.bio") // bio
 const interTag = document.querySelector("p.interview") // interview
 
-const li1Tag = document.querySelector("li.item1")
-const li2Tag = document.querySelector("li.item2")
-const li3Tag = document.querySelector("li.item3")
-const li4Tag = document.querySelector("li.item4")
+const li1Tag = document.querySelector("li.item1") //pip
+const li2Tag = document.querySelector("li.item2") //attentie
+const li3Tag = document.querySelector("li.item3") //nazif
+const li4Tag = document.querySelector("li.item4") //stbureau
 
 const sliderTag = document.querySelector("#innerslide")//finds flex section of slide
 
-const circleTag = document.querySelector("div.circle") //finds second circle
 
 //clarify that "next" is moving +1 down in the array and >then run updateSection
 const next = function(){
@@ -77,11 +73,98 @@ const updateSection = function(){
   li3Tag.innerHTML = pages[2].liweight
   li4Tag.innerHTML = pages[3].liweight
 
-  l1Tag.style.color = pages[pageNumber].circle
+  li1Tag.style.color = "#302D7D"
 
-
-  circleTag.style.backgroundColor = pages[pageNumber].circle
+  li2Tag.style.color = "#F7A813"
+  li3Tag.style.color = "#F7A813"
+  li4Tag.style.color = "#F7A813"
 }
+
+const updatePip = function(){
+    titleTag.innerHTML = pages[0].name
+    bioTag.innerHTML = pages[0].text
+    interTag.innerHTML = pages[0].interview
+    sliderTag.innerHTML = pages[0].slider
+
+    li1Tag.innerHTML = pages[0].liweight
+    li1Tag.style.color = "#302D7D"
+
+    li2Tag.style.color = "#F7A813"
+    li3Tag.style.color = "#F7A813"
+    li4Tag.style.color = "#F7A813"
+
+
+}
+
+
+const updateAttentie = function(){
+    titleTag.innerHTML = pages[1].name
+    bioTag.innerHTML = pages[1].text
+    interTag.innerHTML = pages[1].interview
+    sliderTag.innerHTML = pages[1].slider
+
+    li2Tag.innerHTML = pages[1].liweight
+    li2Tag.style.color = "#302D7D"
+
+    li1Tag.style.color = "#F7A813"
+    li3Tag.style.color = "#F7A813"
+    li4Tag.style.color = "#F7A813"
+}
+
+
+
+const updateNazif = function(){
+    titleTag.innerHTML = pages[2].name
+    bioTag.innerHTML = pages[2].text
+    interTag.innerHTML = pages[2].interview
+    sliderTag.innerHTML = pages[2].slider
+
+    li3Tag.innerHTML = pages[2].liweight
+    li3Tag.style.color = "#302D7D"
+
+    li1Tag.style.color = "#F7A813"
+    li2Tag.style.color = "#F7A813"
+    li4Tag.style.color = "#F7A813"
+}
+
+
+const updateBureau = function(){
+    titleTag.innerHTML = pages[3].name
+    bioTag.innerHTML = pages[3].text
+    interTag.innerHTML = pages[3].interview
+    sliderTag.innerHTML = pages[3].slider
+
+    li4Tag.innerHTML = pages[3].liweight
+    li4Tag.style.color = "#302D7D"
+
+    li1Tag.style.color = "#F7A813"
+    li2Tag.style.color = "#F7A813"
+    li3Tag.style.color = "#F7A813"
+}
+
+
+
+
+//this makes it clickable
+li1Tag.addEventListener("click", function(){
+  updatePip()
+})
+
+li2Tag.addEventListener("click", function(){
+  updateAttentie()
+})
+
+li3Tag.addEventListener("click", function(){
+  updateNazif()
+})
+
+li4Tag.addEventListener("click", function(){
+  updateBureau()
+})
+
+
+updateSection()
+
 
 // //if statements HERE
 // if pageNumber = 0 {
@@ -92,31 +175,13 @@ const updateSection = function(){
 
 //addEventListener runs on load, listening for a "click"
 //when we run a click, we want to run something
-nextTag.addEventListener("click", function(){
-  next()
-})
+// nextTag.addEventListener("click", function(){
+//   next()
+// })
+
 
 
 //addEventListener vs onclick + console error
 //it needs to be specified that once "next" is clicked again, the content of <li> is reseted
 // li.item# only changes when it is the correct page
 // so if page = 1 then li1tag = updated to 1
-
-li1Tag.addEventListener("click", function(){
-  next()
-})
-
-li2Tag.addEventListener("click", function(){
-  next()
-})
-
-li3Tag.addEventListener("click", function(){
-  next()
-})
-
-li4Tag.addEventListener("click", function(){
-  next()
-})
-
-
-updateSection()
