@@ -312,6 +312,18 @@
 </div>
 
 
+<div class=row id="last">
+  <div class="col">
+
+  <span style="float:right">
+  <img src="img/logo-1.png"></img>
+  <img src="img/logo-2.png"></img>
+  </span>
+
+
+  </div>
+</div>
+
 
 
 <?php include 'footer.php';?>

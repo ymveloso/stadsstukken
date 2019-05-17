@@ -7,7 +7,7 @@ const pages = [
   circle:"#3e78ed",
   interview:"<p><b><i>Wat was de inspiratie voor ’Attentiewaarde’?</b></i><br>    Verkeersborden worden voornamelijk gewaardeerd vanwege hun functie, net als de rest van het netwerk van functionele objecten in de openbare ruimte zoals wegbelijning, stoplichten, verkeerspalen, etc. Echter zijn de kleuren, vormen, composities en materialen eindeloos; waarom zouden we niet verder kijken dan enkel de functie? Ik ben gaan kijken hoe ik functionele objecten als medium kan inzetten en de huidige functie achterwege kan laten.</p>     <p><b><i>Waarom heb je juist voor deze locatie gekozen?</b></i><br>    De drukte van de stad is iets wat mij aantrekt, maar ook wegduwt. Ik kom graag in het Nassauhavenpark, er is hier veel ruimte en rust – een soort balans tussen stad en natuur. Niet oer-natuur, maar gewoon wind, eb en vloed, een paar bomen, wat gras en heel veel eenden, meeuwen, en ganzen. Het park heeft een aantal bankjes waar zelden mensen op zitten, er komen hier eigenlijk alleen mensen die een rondje lopen met de hond. Zelf kom ik graag om naar de eendjes te kijken.</p>       <p><b><i>Op welke manier heeft deze locatie invloed gehad op je proces?</b></i><br>        De haven wordt al jaren niet meer gebruikt en door de brede opening richting de Nieuwe Maas heeft de wind er vrij spel. Het idee is dat de werken onderdeel worden van het park en speels meedraaien met de wind, misschien als een soort van voorbeeldfunctie voor hoe het park te gebruiken.</p>     <p><b><i>Welke invloed heeft je werk op deze locatie?</b></i><br>     Dat weet ik niet, maar ik hoop dat de bewoners de verandering in het park waarderen en even op een bankje gaan zitten om misschien maar even niets te doen.</p>     <p><b><i>Hoe zie jij Rotterdam het liefst?</b></i><br>Beetje groen, beetje beton.<p>",
   liweight: "<b>Lloydkwartier</b><i>Off-side</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-portret2.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-portret3.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-portret4.jpg"></div>'
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/jasper-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/jasper-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/jasper-3.jpg"></div>'
 },
 
   {name:"Nazif",
@@ -15,7 +15,7 @@ const pages = [
   circle:"#e34a47",
   interview:"Interview 2",
   liweight: "<b>Zuidplein</b><i>Playdoh</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/nazif-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/nazif-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/nazif-portret3.jpg"></div>'
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/nazif-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/nazif-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/nazif-3.jpg"></div>'
 },
 
   {name:"Pip Passchier",
@@ -23,7 +23,7 @@ const pages = [
   circle:"#f7fe00",
   interview:"<b>Wat was de inspiratie voor ‘Off-Side’?</b><br>Ik onderzoek de openbare ruimte door deze te bekijken als speelveld. Daarin ben ik me bewust van bestaande vormen en lijnen, vaak gedirigeerd door ingrepen van de mens. De vormgeving van de gekozen locatie, bekeken als speelveld, is hierbij mijn inspiratiebron.<br><b>Waarom heb je juist voor deze locatie gekozen?</b> <br>De grote loze lege ruimte tussen de gebouwen prikkelde mij om er beweging en kleur in te brengen. <br><b>Welke invloed heeft je werk op deze locatie?</b><br> Mijn werk heeft als doel dat je anders kunt gaan kijken en reageren op en naar de inrichting van de publieke ruimte. Het werk reageert op de verdichting van de stad, kan de inrichting van de openbare ruimte een dubbele functie hebben? Hoe kunnen we de groenstrook alssportveld gebruiken?<br><b>Wat is jouw toekomstdroom voor de stad Rotterdam?</b><br>Rotterdam als speeltuin, met ruimte voor experiment.",
   liweight: "<b>Nassauhavenpark</b><i>Attentiewaarde</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/pip-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/pip-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/pip-portret3.jpg"></div>'
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/pip-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/pip-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/pip-3.jpg"></div>'
 },
 
   {name:"Studio Bureau",
@@ -31,7 +31,7 @@ const pages = [
   circle:"#b472e6",
   interview:"Interview 4",
   liweight: "<b>De Esch</b><i>De maan</i>",
-  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/studiobureau-portret1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/studiobureau-portret2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/studiobureau-portret3.jpg"></div>'
+  slider: '<div class="carousel-item active"><img id="img1" class="d-block w-100" src="img/studiob-1.jpg"></div><div class="carousel-item"><img  id="img2" class="d-block w-100" src="img/studiob-2.jpg"></div><div class="carousel-item"><img id="img3" class="d-block w-100" src="img/studiob-3.jpg"></div>'
 }
 ]
 

@@ -1,14 +1,3 @@
-
-
-
-<div class=row id="last">
-  <div class="col">
-    here all the stuff <br>
-    <br>
-    <br>
-  </div>
-</div>
-
 <div class=row id="footer">
   <div class="col">
     <ul>
@@ -42,6 +31,16 @@
 //   $("#header").html('<div class="col"><span style="text-align:left;"><a href="about.php">  <i>Stadsstukken</i> </a></<span style="float:right;font-weight: 1000;"><a href="about.php">+</a></span></div> <br><div class="col" id="play"></div>');
 // });
   </script>
+
+  <script>
+
+  $("#header").click(function() {
+    window.location = $('#header').find("a").attr("href");
+  return false;
+});
+
+</script>
+
   <!-- scrolling effects -->
   <script src="scripts/javascript.js"></script>
   <!-- page slider -->

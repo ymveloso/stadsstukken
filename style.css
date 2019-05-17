@@ -143,6 +143,12 @@ li b {
   display: block;
 }
 
+li.item3 {
+  color: #302D7D;
+}
+
+
+
 li:hover {text-decoration: underline; cursor: pointer;}
 
 
@@ -230,9 +236,23 @@ p.bio b, p.bio i {
 }
 
 .row#last {
-height: 4vh;
+/* background: #fff; */
+height: 13vh;
+padding-top: 0;
+}
+
+.row#last img {
+  max-height: 7vh;
+  margin-right: 10px;
 }
 
 #play {
   width: 60vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
 }
