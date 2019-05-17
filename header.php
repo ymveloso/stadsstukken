@@ -31,14 +31,13 @@
 
 
 <div class="container-fluid">
+
   <div class=row id="header">
     <div class="col">
       <span style="text-align:left;">
       <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
 
-      <!-- <span style="font-size:3.5vmin;">▼</span> -->
       <span style="float:right;font-weight: 10000;"><a href="about.php">+</a></span>
-  <!-- <div class="col" id="play"></div> -->
 
     </div>
   </div>

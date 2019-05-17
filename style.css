@@ -10,7 +10,7 @@ cursor: url('img/cursor1.png');
 
 }
 
-#header {
+#header, #header1 {
   font-size: 5.5vmin;
   background: #fff;
   letter-spacing: 1.5px;
@@ -29,7 +29,7 @@ cursor: url('img/cursor1.png');
 
 }
 
-#header a, #header a:link, #header a:visited, #header a:active {
+#header a, #header a:link, #header a:visited, #header a:active, #header1 a, #header2 a:link, #header2 a:visited, #header2 a:active {
   text-decoration: none;
   color: #E62A44;
 
@@ -37,14 +37,14 @@ cursor: url('img/cursor1.png');
 
 }
 
-#header a:hover {
+#header a:hover, #header1 a:hover {
   color: #302D7D;
 
 }
 
 /* Animation Grid */
 #grid {
-  /* border: 1px solid; */
+  border: 1px solid;
   padding: 0px;   /* this will make the front grid gutter-free  */
 }
 

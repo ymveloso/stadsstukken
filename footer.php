@@ -23,23 +23,15 @@
     }
     prevScrollpos = currentScrollPos;
   }
-//   $( "#header" ).hover(function() {
-//   $("#header").css("border", "1px solid red");
-//   // $("#header").css("height", "100vh");
-//   // $("#header").css("width", "100vw");
-//   // $("#header").css("z-index", "0");
-//   $("#header").html('<div class="col"><span style="text-align:left;"><a href="about.php">  <i>Stadsstukken</i> </a></<span style="float:right;font-weight: 1000;"><a href="about.php">+</a></span></div> <br><div class="col" id="play"></div>');
-// });
   </script>
 
   <script>
-
   $("#header").click(function() {
     window.location = $('#header').find("a").attr("href");
   return false;
 });
-
 </script>
+
 
   <!-- scrolling effects -->
   <script src="scripts/javascript.js"></script>
