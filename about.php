@@ -216,7 +216,6 @@
     <div id="biocol">
     <h2 class="name">Artist name</h2>
     <p class="bio">Artist text</p>
-
 </div>
 
               <div class="col" id="grid">
