@@ -44,7 +44,7 @@ cursor: url('img/cursor1.png');
 
 /* Animation Grid */
 #grid {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 0px;   /* this will make the front grid gutter-free  */
 }
 
@@ -120,6 +120,18 @@ cursor: url('img/cursor1.png');
 /* not working */
 }
 
+/* Artist websites */
+p.bio a, p.bio a:link, p.bio a:active {
+  color:#302D7D;
+}
+
+p.bio a:hover {
+  border-bottom: 3px solid #FAD2C8;
+  text-decoration: none;
+}
+
+
+
 .circle, .circle2 {
   width: 30px;
   height: 30px;
@@ -178,12 +190,28 @@ p.bio b, p.bio i {
   font-weight: 900;
 
 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
-  word-wrap: break-word;
+  /* word-wrap: break-word;
+  padding-top: -200 !important ;
+  max-height: 30vh;
+  margin-top: 0 !important; */
 
+  -ms-flex-align: center!important;
+  align-items: center!important;
+
+}
+
+#date img, #location img {
+  /* border: 1px solid; */
+  margin: 0;
+
+  display: -ms-flexbox!important;
+  display: flex!important;
+
+  width: 100vw;
 
 }
 
@@ -206,8 +234,9 @@ p.bio b, p.bio i {
   right: 0;
 
   margin: auto;
-  padding-bottom: 3px;
-  max-height: 5vh;
+  padding-bottom: 4px;
+  height: 4.5vh;
+
 
   box-shadow: 0px -5px 10px rgba(50, 50, 50, 0.08);
 
@@ -246,6 +275,18 @@ padding-top: 0;
   margin-right: 10px;
 }
 
+.row#last a, .row#last a:link,.row#last a:active {
+  color: #E62A44;
+  font-style: italic;
+}
+.row#last a:hover {
+  color: #F7A813;
+  text-decoration: none;
+
+}
+
+
+
 #play {
   width: 60vw;
 }
@@ -255,4 +296,8 @@ padding-top: 0;
   div.example {
     display: none;
   }
+
+
+  .row#footer {
+    height: 3vh;
 }

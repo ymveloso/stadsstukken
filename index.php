@@ -1,5 +1,14 @@
 <?php include 'header.php';?>
 
+  <div class=row id="header">
+    <div class="col">
+      <span style="text-align:left;">
+      <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
+
+      <span style="float:right;font-weight: 10000;"><a href="about.php">+</a></span>
+
+    </div>
+  </div>
         <!-- Nested collumns -->
 <div class="row" >
 
@@ -129,6 +138,19 @@
 </div>
 
 
+</div>
+
+<div class=row id="last" style="height: 4.5vh;">
+  <div class="col">
+
+     <!-- <span style="float:right; font-size: 2vmin;">
+<br>
+Website built by Yara
+
+     </span> -->
+
+
+  </div>
 </div>
 
 

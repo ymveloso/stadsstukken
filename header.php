@@ -1,4 +1,11 @@
 <!doctype html>
+<!--
+Colophon
+Joep & Yara
+fuck off this code byatches
+-->
+
+
 <html>
   <head>
     <title>Stadsstukken Rotterdam</title>
@@ -31,13 +38,3 @@
 
 
 <div class="container-fluid">
-
-  <div class=row id="header">
-    <div class="col">
-      <span style="text-align:left;">
-      <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
-
-      <span style="float:right;font-weight: 10000;"><a href="about.php">+</a></span>
-
-    </div>
-  </div>

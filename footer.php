@@ -1,10 +1,11 @@
 <div class=row id="footer">
   <div class="col">
     <ul>
-    <li><a href="">Instagram</a></li>
-    <li><a href="">Facebook</a></li>
-    <li><a href="">Nieuwsbrief</a></li>
-    <li><a href="">Mail</a></li>
+    <li><a href="https://www.instagram.com/stadsstukken/">Instagram</a></li>
+    <li><a href="https://www.facebook.com/stadsstukken
+">Facebook</a></li>
+    <li><a href="https://mailchi.mp/b7ee7f9c5573/schrijfjein">Nieuwsbrief</a></li>
+    <li><a href="mailto:info@stadsstukken.com">Mail</a></li>
   </ul>
   </div>
 </div>
@@ -32,6 +33,9 @@
 });
 </script>
 
+<script>
+$("document a[href^='http://']").attr("target","_blank");
+</script>
 
   <!-- scrolling effects -->
   <script src="scripts/javascript.js"></script>

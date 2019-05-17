@@ -1,5 +1,16 @@
 <?php include 'header.php';?>
 
+  <div class=row id="header">
+    <div class="col">
+      <span style="text-align:left;">
+      <a href="index.php">  <i>Stadsstukken</i> 	  </a></span>
+
+      <span style="float:right; font-size: 4.8vmin; padding-top: 4px;"><a href="about.php#works">&#8592;</a></span>
+
+    </div>
+  </div>
+
+
   <div class="row" >
 
     <div class="col-sm-8" id="grid">
@@ -235,17 +246,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm" id="grid">
-                        <div class="row no-gutters">
-                              <div class="col" id="17">
-                                <!-- 1 of 2 -->
-                              </div>
 
-                              <div class="col" id="12" style="visibility: hidden;">
-                                <!-- 2 of 2 -->
-                              </div>
-                          </div>
-                      </div>
                 </div>
 
 
@@ -301,13 +302,13 @@
 
 <div class=row id="date">
   <div class="col">
-    JUL/AUG/SEP
+    <img src="img/SEP.svg"></img>
   </div>
 </div>
 
 <div class=row id="location">
   <div class="col">
-    Rotterdam
+    <img src="img/rotterdam.svg"></img>
   </div>
 </div>
 
@@ -318,6 +319,12 @@
   <span style="float:right">
   <img src="img/logo-1.png"></img>
   <img src="img/logo-2.png"></img>
+
+  <span style="font-size: 2.3vmin;">
+    Built by
+    <a href="http://yaraveloso.nu">Yara</a>
+
+  </span>
   </span>
 
 
