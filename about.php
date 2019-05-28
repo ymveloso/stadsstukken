@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
-  <div class=row id="header">
-    <div class="col">
+  <div class="row">
+    <div class="col" id="header">
       <span style="text-align:left;">
       <a href="index.php">  <i>Stadsstukken</i> 	  </a></span>
 
@@ -61,83 +61,6 @@
   </div>
 
 
-  <div class="row">
-    <div class="col-lg" id="grid">
-      <div class="row no-gutters">
-            <div class="col" id="0">
-              <!-- 1 of 2 -->
-            </div>
-
-            <div class="col" id="0">
-              <!-- 2 of 2 -->
-            </div>
-        </div>
-      </div>
-
-      <div class="col-lg" id="grid">
-          <div class="row no-gutters">
-                <div class="col" id="0">
-                  <!-- 1 of 2 -->
-                </div>
-
-                <div class="col" id="0">
-                  <!-- 2 of 2 -->
-                </div>
-            </div>
-        </div>
-
-      <div class="col-lg" id="grid">
-          <div class="row no-gutters">
-                <div class="col" id="0">
-                  <!-- 1 of 2 -->
-                </div>
-
-                <div class="col" id="0">
-                  <!-- 2 of 2 -->
-                </div>
-            </div>
-        </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-lg" id="grid">
-      <div class="row no-gutters">
-            <div class="col" id="0">
-              <!-- 1 of 2 -->
-            </div>
-
-            <div class="col" id="0">
-              <!-- 2 of 2 -->
-            </div>
-        </div>
-      </div>
-
-      <div class="col-lg" id="grid">
-          <div class="row no-gutters">
-                <div class="col" id="0">
-                  <!-- 1 of 2 -->
-                </div>
-
-                <div class="col" id="0">
-                  <!-- 2 of 2 -->
-                </div>
-            </div>
-        </div>
-
-      <div class="col-lg" id="grid">
-          <div class="row no-gutters">
-                <div class="col" id="0">
-                  <!-- 1 of 2 -->
-                </div>
-
-                <div class="col" id="10">
-                  <!-- 2 of 2 -->
-                </div>
-            </div>
-        </div>
-  </div>
-
   <br><br>
 
   <div class="row" id="slidemenu">
@@ -182,7 +105,7 @@
 
 
 
-      <div class="col-lg-4" id="works" >
+      <div class="col-lg-4" id="works" anchor="works" >
 
 <ul>
   <li class="item1">

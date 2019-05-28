@@ -5,14 +5,14 @@
     <li><a href="https://www.facebook.com/stadsstukken
 ">Facebook</a></li>
     <li><a href="https://mailchi.mp/b7ee7f9c5573/schrijfjein">Nieuwsbrief</a></li>
-    <li><a href="mailto:info@stadsstukken.com">Mail</a></li>
+    <li><a href="mailto:info@stadsstukken.com">Mail Ons</a></li>
   </ul>
   </div>
 </div>
 
 
 </div>
-  <script>
+  <!-- <script>
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
@@ -24,9 +24,9 @@
     }
     prevScrollpos = currentScrollPos;
   }
-  </script>
+  </script> -->
 
-  <script>
+   <script>
   $("#header").click(function() {
     window.location = $('#header').find("a").attr("href");
   return false;

@@ -1,10 +1,11 @@
 <?php include 'header.php';?>
 
-<div class=row id="header">
-  <div class="col">
+<div class="row">
+  <div class="col" id="header">
     <span style="text-align:left;">
     <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
-    <span style="float:right;font-weight: 10000;"><a href="about.php">+</a></span>
+    <span style="float:right; font-size: 4.8vmin; padding-top: 4px;">
+    <a href="about.php">&#9776;</a></span>
   </div>
 </div>
         <!-- Nested collumns -->
@@ -16,8 +17,36 @@
     <div id="intro">
       <p><i>Stukken stad <br>
       tijdelijk verrijkt <br>
-      door jonge makers</i></p><br>
+      door jonge makers</i></p>
     </div>
+
+
+    <div class="row no-gutters" style="padding: 0vw 0vw 0vw 1.5vw; line-height: 1.1;">
+
+      <div class="col" id="introlinks">
+        <a href="http://www.stadsstukken.com/about.php#works"><b> Lloydkwartier</b></a> <br>
+        Pip Passchier <br>
+        <a href="http://www.stadsstukken.com/about.php#works"><b>Zuidplein</b></a> <br>
+        Nazif Lopulissa <br>
+        <a href="http://www.stadsstukken.com/about.php#works"><b>De Esch</b></a><br>
+        Studio Bureau <br>
+        <a href="http://www.stadsstukken.com/about.php#works"><b>Nassauhavenpark</b></a> <br>
+        Jasper van Doorn <br> <br>
+
+      </div>
+
+      <div class="col" style="padding-left: 1vw;  align-self: flex-end; color: #E62A44; font-weight: 450;">
+        <i>19 JUL – 22 SEP <br>
+        ROTTERDAM 2019 </i><br> <br>
+      </div>
+
+      <div class="col">
+        <!-- 2 of 3 -->
+      </div>
+
+    </div>
+
+
   </div>
 
 <div class="col-lg-6" id="grid">
