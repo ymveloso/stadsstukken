@@ -1,11 +1,12 @@
 <?php include 'header.php';?>
 
-<div class="row">
-  <div class="col" id="header">
-    <span style="text-align:left;">
-    <a href="about.php">  <i>Stadsstukken</i> 	  </a></span>
-    <span style="float:right; font-size: 4.8vmin; padding-top: 4px;">
-    <a href="about.php">&#9776;</a></span>
+<div class="row" id="header">
+  <div class="col" id="pad">
+
+    <span><a href="about.php"><i>Stadsstukken</i></a></span>
+
+    <img id="burguer" src="img/burguer.svg"></img>
+    <!-- <span id="burguer"><a href="about.php">&#9776;</a></span> -->
   </div>
 </div>
         <!-- Nested collumns -->
@@ -24,13 +25,13 @@
     <div class="row no-gutters" style="padding: 0vw 0vw 0vw 1.5vw; line-height: 1.1;">
 
       <div class="col" id="introlinks">
-        <a href="http://www.stadsstukken.com/about.php#works"><b> Lloydkwartier</b></a> <br>
+        <a href="about.php#biocol"><b> Lloydkwartier</b></a> <br>
         Pip Passchier <br>
-        <a href="http://www.stadsstukken.com/about.php#works"><b>Zuidplein</b></a> <br>
+        <a href="about"><b>Zuidplein</b></a> <br>
         Nazif Lopulissa <br>
-        <a href="http://www.stadsstukken.com/about.php#works"><b>De Esch</b></a><br>
+        <a href="about"><b>De Esch</b></a><br>
         Studio Bureau <br>
-        <a href="http://www.stadsstukken.com/about.php#works"><b>Nassauhavenpark</b></a> <br>
+        <a href="about"><b>Nassauhavenpark</b></a> <br>
         Jasper van Doorn <br> <br>
 
       </div>

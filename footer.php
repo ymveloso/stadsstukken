@@ -12,6 +12,7 @@
 
 
 </div>
+
   <!-- <script>
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   var prevScrollpos = window.pageYOffset;
@@ -26,16 +27,19 @@
   }
   </script> -->
 
-   <script>
-  $("#header").click(function() {
-    window.location = $('#header').find("a").attr("href");
-  return false;
-});
-</script>
 
-<script>
-$("document a[href^='http://']").attr("target","_blank");
-</script>
+  <script>
+  $("#header").click(function() {
+  window.location = $('#header').find("a").attr("href");
+  return false;
+  });
+
+  $("#header1").click(function() {
+  window.location = $('#header1').find("a").attr("href");
+  return false;
+  });
+  </script>
+
 
   <!-- scrolling effects -->
   <script src="scripts/javascript.js"></script>

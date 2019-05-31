@@ -1,12 +1,13 @@
 <?php include 'header.php';?>
 
-  <div class="row">
-    <div class="col" id="header">
+  <div class="row" id="header1">
+    <div class="col" id="pad">
       <span style="text-align:left;">
       <a href="index.php">  <i>Stadsstukken</i> 	  </a></span>
 
-      <span style="float:right; font-size: 4.8vmin; padding-top: 4px;"><a href="about.php#works">&#8592;</a></span>
+      <img id="arrow" src="img/arrow.svg"></img>
 
+<!-- <span id="arrow"><a href="about.php#works">←</a></span></a> -->
     </div>
   </div>
 
@@ -14,23 +15,16 @@
   <div class="row" >
 
     <div class="col-lg-8" id="grid">
-
-      <div id="first">
-                <p>Onze stad kent ondanks haar groeiende populariteit nog een hoop stille, haast onontdekte plekken. Ze worden genegeerd omdat ze voor lief worden genomen, of een tikkie eigenaardig zijn. Juist deze ongeziene plekken geven Rotterdam een eigen identiteit. Helaas staat er steeds meer druk op deze vrije stukken stad.</p>
+    <div id="first">
+          <p>Onze stad kent ondanks haar groeiende populariteit nog een hoop stille, haast onontdekte plekken. Ze worden genegeerd omdat ze voor lief worden genomen, of een tikkie eigenaardig zijn. Juist deze ongeziene plekken geven Rotterdam een eigen identiteit. Helaas staat er steeds meer druk op deze vrije stukken stad.</p>
 
           <p><b>Stadsstukken</b> geeft een unieke blik op de openbare ruimtes die Rotterdam rijk is en bevraagt deze door stil te staan bij hun diversiteit en potentie. Van juli tot en met augustus is op Zuidplein, De Esch, het Nassauhavenpark en het Lloydkwartier werk te zien van jonge Rotterdamse kunstenaars die hierop inspelen. Met hun installaties geven ze de rafelrandjes van Rotterdam de aandacht die ze verdienen. </p>
-
-          <p>
-          De kunstwerken zijn geïnspireerd door de stad en vrij te bezichtigen. Leuk voor de toevallige voorbijganger, maar ook voor de bewuste avonturier een uitstekende reden om een onbekend Rotterdam te gaan ontdekken.
-        </p>
-
-
-        </div>
-
+          <p>De kunstwerken zijn geïnspireerd door de stad en vrij te bezichtigen. Leuk voor de toevallige voorbijganger, maar ook voor de bewuste avonturier een uitstekende reden om een onbekend Rotterdam te gaan ontdekken.</p>
+    </div>
     </div>
 
     <div class="col-lg-4" id="grid">
-      <div class="row no-gutters">
+      <div class="row no-gutters" id="disappear1">
             <div class="col" id="0">
               <!-- 1 of 2 -->
             </div>
@@ -43,7 +37,7 @@
         </div>
 
         <div class="col-lg" id="grid">
-            <div class="row no-gutters">
+            <div class="row no-gutters" id="disappear3">
                   <div class="col" id="6" >
                     <!-- 1 of 2 -->
                   </div>
@@ -59,9 +53,6 @@
 
 
   </div>
-
-
-  <br><br>
 
   <div class="row" id="slidemenu">
       <div class="col-lg-8" id="carousel">
@@ -80,13 +71,13 @@
     <!--flex slide section -->
     <div class="carousel-inner" id="innerslide" style="max-height: 70vh !important;">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/img1.svg">
+        <img class="d-block w-100" src="">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/img2.svg">
+        <img class="d-block w-100" src="">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/img3.svg">
+        <img class="d-block w-100" src="">
       </div>
     </div>
     <!--flex slide section -->
@@ -105,85 +96,55 @@
 
 
 
-      <div class="col-lg-4" id="works" anchor="works" >
+      <div class="col-lg-4" id="works">
 
-<ul>
-  <li class="item1">
-    List item 1
-  </li>
+        <ul>
+          <li id="item1">
+            List item 1
+          </li>
 
-  <li class="item2">
-    List item 2
-  </li>
+          <li id="item2">
+            List item 2
+          </li>
 
-  <li class="item3">
-  List item 3
-  </li>
+          <li id="item3">
+          List item 3
+          </li>
 
-  <li class="item4">
-    List item 4
-  </li>
-</ul>
-
-<div class="circle2" style="visibility: hidden;"></div>
-
-
-
+          <li id="item4">
+            List item 4
+          </li>
+        </ul>
       </div>
+
     </div>
 
 
 <div class=row>
 
   <div class="col-lg-4" id="info">
-    <div id="biocol">
-    <h2 class="name">Artist name</h2>
+
     <p class="bio">Artist text</p>
-</div>
-
-              <div class="col" id="grid">
-                <div class="row no-gutters" id="afterbio">
-                  <div class="col-sm" id="grid">
-                      <div class="row no-gutters">
-                            <div class="col" id="20">
-                              <!-- 1 of 2 -->
-                            </div>
-
-                            <div class="col" id="16" style="visibility: hidden;">
-                              <!-- 2 of 2 -->
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm" id="grid">
-                      <div class="row no-gutters" id="afterbio">
-                            <div class="col" id="9" style="visibility: hidden;">
-                              <!-- 1 of 2 -->
-                            </div>
-
-                            <div class="col" id="13">
-                              <!-- 2 of 2 -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
 
   </div>
 
 
   <div class="col" id="interview">
     <p class="interview">Artist interview</p>
+<br>
+<center><span id="prev"><img src="img/prevred.svg"></img></span>
+&nbsp;
+  <b><span id="current">Current Name</span></b>
+&nbsp;
+  <span id="next"><img src="img/nextred.svg" style="height: 5vmin;" align="middle"></img> </span></center>
+  <br>
   </div>
 
 </div>
 
 
     <!-- Nested collumns / Anim Grid 1 -->
-    <div class="row">
+    <div class="row" id="disappear2">
 
 <div class="col-lg" id="grid">
 <div class="row no-gutters">
@@ -220,33 +181,27 @@
 
 
 
-
-
 <div class=row id="date">
-  <div class="col">
-    <img src="img/SEP.svg"></img>
-  </div>
+    <div class="col">Jul/Aug/Sep</div>
 </div>
 
 <div class=row id="location">
-  <div class="col">
-    <img src="img/rotterdam.svg"></img>
-  </div>
+  <div class="col">Rotterdam</div>
 </div>
+
 
 
 <div class=row id="last">
   <div class="col">
 
-  <span style="float:right">
-  <img src="img/logo-1.png"></img>
+  <span style="float:left">
   <img src="img/logo-2.png"></img>
-
-  <span style="font-size: 2.3vmin;">
-    Built by
-    <a href="http://yaraveloso.nu">Yara</a>
+  <img src="img/logo-1.png" style="padding-top: 4px;"></img>
 
   </span>
+
+  <span style="font-size: 2.3vmin; float: right; padding-top: 18px;">
+    Built by <a href="http://yaraveloso.nu">Yara</a>
   </span>
 
 
