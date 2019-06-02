@@ -138,7 +138,7 @@ img#burguer, img#arrow {
 /* About Intro */
 #first {
   padding: 3vw 6vw 0vw 1.5vw;
-  border: 1px solid blue;
+  /* border: 1px solid blue; check */
 }
 
 
@@ -186,12 +186,12 @@ p.bio a:hover {
   text-decoration-color: #FAD2C8;
 }
 .col-lg-4#info {
-  border: 1px solid black;
+  /* border: 1px solid black; check */
 }
 .col-lg-4#info, .col#interview, .col-lg-4#works {
   padding-top: 1.5vw;
   padding-left: 1.5vw;
-  border: 1px solid black;
+  /* border: 1px solid black; check */
 
 }
 
@@ -205,7 +205,7 @@ line-height: 1;
 justify-content: space-around;
 font-weight: normal;
 margin-bottom: 40px;
-border: 1px solid red;
+/* border: 1px solid red;  check */
 }
 #works ul li b {
   display: block;
@@ -301,22 +301,16 @@ h2, h1 {
    line-height: 14.2vw;
  }
 
-
-
+/* Logos and built by */
 .row#last {
 background: #FAD2C8;
 height: 13vh;
 padding-top: 0;
-
 }
-
-
-
 .row#last img {
   max-height: 7vh;
   margin-right: 10px;
 }
-
 .row#last a, .row#last a:link,.row#last a:active {
   color: #E62A44;
   font-style: italic;
@@ -324,13 +318,16 @@ padding-top: 0;
 .row#last a:hover {
   color: #F7A813;
   text-decoration: none;
-
 }
 
+span.builtby {
+  font-size: 2.3vmin;
+  float: right;
+/* border: 1px solid black; */
+padding: 1.5vh;
+padding-top: 2.5vh;
 
-
-
-
+}
 
 @media only screen and (max-width: 860px) {
 
@@ -364,13 +361,11 @@ padding-top: 0;
   font-size: 10vmin;
 }
 .row#footer ul li {
-    font-size: 3.5vmin;
+    font-size: 3.2vmin;
 }
 
 img#burguer, img#arrow {
   float:right;
-  /* border: 1px solid black; */
-  /* vertical-align:top; */
   padding-top: 11px;
   height: 10vmin;
 }
@@ -378,11 +373,16 @@ img#burguer, img#arrow {
 
 /* size and color corrections */
 .row#last img {
-  max-height: 5.5vh;
+  max-height: 3.5vh;
 }
 .row#last {
-  max-height: 11vh;
+  max-height: 8.5vh;
 }
+
+span.builtby {
+padding-top: 1.5vh;
+}
+
 .col#interview {
   background: #fff;
 }

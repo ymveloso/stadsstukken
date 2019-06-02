@@ -200,7 +200,7 @@
 
   </span>
 
-  <span style="font-size: 2.3vmin; float: right; padding-top: 18px;">
+  <span class="builtby">
     Built by <a href="http://yaraveloso.nu">Yara</a>
   </span>
 
