@@ -11,7 +11,7 @@
     <div class="col-lg-8" id="grid">
       <div id="first">
         <p>Onze stad kent ondanks haar groeiende populariteit nog een hoop stille, haast onontdekte plekken. Ze worden genegeerd omdat ze voor lief worden genomen, of een tikkie eigenaardig zijn. Juist deze ongeziene plekken geven Rotterdam een eigen identiteit. Helaas staat er steeds meer druk op deze vrije stukken stad.</p>
-        <p><b>Stadsstukken</b> geeft een unieke blik op de openbare ruimtes die Rotterdam rijk is en bevraagt deze door stil te staan bij hun diversiteit en potentie. Van juli tot en met september is op Zuidplein, De Esch, het Nassauhavenpark en het Lloydkwartier werk te zien van jonge Rotterdamse kunstenaars die hierop inspelen. Met hun installaties geven ze de rafelrandjes van Rotterdam de aandacht die ze verdienen. </p>
+        <p><b>Stadsstukken</b> geeft een unieke blik op de openbare ruimtes die Rotterdam rijk is en bevraagt deze door stil te staan bij hun diversiteit en potentie. Van juli tot en met augustus is op Zuidplein, De Esch, het Nassauhavenpark en het Lloydkwartier werk te zien van jonge Rotterdamse kunstenaars die hierop inspelen. Met hun installaties geven ze de rafelrandjes van Rotterdam de aandacht die ze verdienen. </p>
         <p>De kunstwerken zijn geïnspireerd door de stad en vrij te bezichtigen. Leuk voor de toevallige voorbijganger, maar ook voor de bewuste avonturier een uitstekende reden om een onbekend Rotterdam te gaan ontdekken.</p>
       </div>
     </div>
@@ -81,7 +81,7 @@
 
 
 
-      <div class="col-lg-4" id="werken">
+      <div class="col-lg-4" id="works">
 
         <ul>
           <li id="item1">

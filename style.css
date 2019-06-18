@@ -44,8 +44,11 @@ img#burguer, img#arrow {
   float:right;
   /* border: 1px solid black; */
   /* vertical-align:top; */
-  padding-top: 10px;
   height: 5.5vmin;
+/*
+  flex-direction: column;
+  justify-content: center; */
+  padding-top: 12px;
 }
 
 
@@ -103,6 +106,11 @@ img#burguer, img#arrow {
 /* Index Intro */
 #intro {
   padding: 3vw 2vw 6vw 1.5vw;
+}
+
+#introlinks {
+  padding: 0vw 0vw 0vw 1.5vw;
+  line-height: 1.1;
 }
 
 #introlinks a, #introlinks a:link, #introlinks a:active {
@@ -165,9 +173,12 @@ img#burguer, img#arrow {
 
 
 /* Artist profiles */
-#works {
+#werken {
   border-radius: 0px 0px 100px;
   display: flex;
+
+  flex-direction: column;
+  justify-content: center;
 }
 
 h2.name {
@@ -177,7 +188,7 @@ h2.name {
   margin-block-start: 0.1em;
 }
 
-/* Artists Websites */
+/* werken Websites */
 p.bio a, p.bio a:link, p.bio a:active {
   color:#302D7D;
 }
@@ -188,7 +199,7 @@ p.bio a:hover {
 .col-lg-4#info {
   /* border: 1px solid black; check */
 }
-.col-lg-4#info, .col#interview, .col-lg-4#works {
+.col-lg-4#info, .col#interview, .col-lg-4#werken {
   padding-top: 1.5vw;
   padding-left: 1.5vw;
   /* border: 1px solid black; check */
@@ -199,7 +210,7 @@ p.bio a:hover {
 
  /* check */
 
-#works ul li {
+#werken ul li {
 font-size: 4vmin;
 line-height: 1;
 justify-content: space-around;
@@ -207,10 +218,10 @@ font-weight: normal;
 margin-bottom: 40px;
 /* border: 1px solid red;  check */
 }
-#works ul li b {
+#werken ul li b {
   display: block;
 }
-#works ul li:hover {
+#werken ul li:hover {
   text-decoration: underline;
   cursor: pointer;
   text-decoration-color: #302D7D;
@@ -257,7 +268,7 @@ height: 35px;
 background: no-repeat 100%/100% 100%;
 }
 
-#carousel, #works, #caroussel img {
+#carousel, #werken, #caroussel img {
   background-color: #fff;
 }
 
@@ -281,6 +292,13 @@ h2, h1 {
  div#date.row div.col, div#location.row div.col {
    justify-content: center;
    text-align-last: center;
+
+   /* For Safari, the old Flexbox specification*/
+   display: -webkit-box;
+   -webkit-box-pack: center; /* justify-content */
+   -webkit-box-align: center; /* align-items */
+
+
    padding: 1.5vw 0 1.5vw 0;
    margin-top: -1.7vw;
    text-transform: uppercase;
@@ -304,12 +322,14 @@ h2, h1 {
 /* Logos and built by */
 .row#last {
 background: #FAD2C8;
-height: 13vh;
 padding-top: 0;
+height: 13vh;
+
 }
+
 .row#last img {
   max-height: 7vh;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .row#last a, .row#last a:link,.row#last a:active {
   color: #E62A44;
@@ -341,7 +361,7 @@ padding-top: 2.5vh;
   font-size: 4vmin;
 }
 
-.col-lg-4#info, .col#interview, .col-lg-4#works, #first, #intro {
+.col-lg-4#info, .col#interview, .col-lg-4#werken, #first, #intro {
     padding: 0.6em;
 }
 
@@ -389,14 +409,14 @@ padding-top: 1.5vh;
 
 
 /* menu 2X2 */
-#works {
+#werken {
   border-radius: 0px 0px 70px;
 }
 
-/* #works ul li, #works ul li b{
+/* #werken ul li, #werken ul li b{
   display: inline;
 } */
-#works ul li {
+#werken ul li {
   /* border: 1px solid black; */
   position: relative;
   /* margin-right: 30px; */
@@ -414,6 +434,10 @@ li#item2, li#item4 {
   float: left;
   margin-left: 0px;
   width: 55%;
+}
+
+img#arrow {
+display: none
 }
 
 
