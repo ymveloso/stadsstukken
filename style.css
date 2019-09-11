@@ -329,6 +329,7 @@ height: 13vh;
 
 .row#last img {
   max-height: 7vh;
+  margin-right: 15px;
   /* margin-right: 10px; */
 }
 .row#last a, .row#last a:link,.row#last a:active {

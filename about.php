@@ -180,8 +180,12 @@
   <div class="col">
 
   <span style="float:left">
-  <img src="img/logo-2.png">
+  <img src="img/logo-2.png" style="padding-top: 1px;">
   <img src="img/logo-1.png" style="padding-top: 4px;">
+  <img src="img/logo-3.png"  style="padding-top: 4px;">
+  <img src="img/logo-4.png"  style="padding-top: 6px;">
+  <img src="img/logo-5.png"  style="padding-top: 6px;">
+
 
   </span>
 
